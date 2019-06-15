@@ -1,0 +1,9 @@
+Field,Type,Null,Key,Default,Extra
+id,int(11),NO,PRI,NULL,auto_increment
+name,varchar(45),YES,,NULL,
+phone,varchar(45),YES,,NULL,
+address,varchar(1000),YES,,NULL,
+email,varchar(50),YES,,NULL,
+longitude,double,YES,,NULL,
+latitude,double,YES,,NULL,
+subscriptionDate,datetime,YES,,CURRENT_TIMESTAMP,

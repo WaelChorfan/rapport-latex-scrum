@@ -1,0 +1,8 @@
+Field,Type,Null,Key,Default,Extra
+id,int(11),NO,PRI,NULL,auto_increment
+name,varchar(45),NO,,NULL,
+description,varchar(1000),YES,,NULL,
+start,date,NO,,NULL,
+end,date,NO,,NULL,
+category,varchar(60),YES,,NULL,
+customers_id,int(11),YES,MUL,NULL,

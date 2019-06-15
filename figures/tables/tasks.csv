@@ -1,0 +1,11 @@
+Field,Type,Null,Key,Default,Extra
+id,int(11),NO,PRI,NULL,auto_increment
+login,varchar(30),YES,,NULL,
+password,varchar(15),YES,,NULL,
+firstname,varchar(50),YES,,NULL,
+lastname,varchar(30),YES,,NULL,
+email,varchar(100),YES,,NULL,
+hiredate,datetime,YES,,CURRENT_TIMESTAMP,
+color,varchar(6),YES,,NULL,
+projects_id,int(11),YES,MUL,NULL,
+pname,varchar(50),YES,,NULL,

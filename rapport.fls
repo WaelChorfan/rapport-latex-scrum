@@ -1,0 +1,447 @@
+PWD d:\_PFE\report
+INPUT C:\Users\WaelChorfan\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT d:\_PFE\report\rapport.tex
+OUTPUT d:\_PFE\report\rapport.log
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcnumparser.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcnumparser.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\txfonts.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\txfonts.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\apacite\apacite.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\apacite\apacite.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\francais.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\francais.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\french.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
+INPUT d:\_PFE\report\nul:.tex
+INPUT d:\_PFE\report\nul:.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\placeins\placeins.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\placeins\placeins.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT d:\_PFE\report\rapport.aux
+INPUT d:\_PFE\report\rapport.aux
+OUTPUT d:\_PFE\report\rapport.aux
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omltxmi.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omltxmi.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omstxsy.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omstxsy.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omxtxex.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omxtxex.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxexa.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxexa.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\apacite\french.apc
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\apacite\french.apc
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+OUTPUT d:\_PFE\report\rapport.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\PageDeGarde.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\1.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\2.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT d:\_PFE\report\3.pdf
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr17.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmbx12.tfm
+INPUT d:\_PFE\report\rapport.toc
+INPUT d:\_PFE\report\rapport.toc
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmbx12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmbx12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr6.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\lmmi12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\lmmi8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\lmmi6.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\lmsy8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\lmsy6.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\lmex10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\ot1txr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\ot1txr.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txi.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txi.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txi.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxmia.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxmia.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txmia.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txmia.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txmia.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxsya.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxsya.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txsya.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txsya.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txsya.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxsyb.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxsyb.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyb.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyb.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyb.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxsyc.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxsyc.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyc.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyc.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txsyc.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txexa.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txexa.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\txfonts\txexa.tfm
+INPUT C:\Users\WaelChorfan\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+OUTPUT d:\_PFE\report\rapport.toc
+INPUT d:\_PFE\report\rapport.lof
+INPUT d:\_PFE\report\rapport.lof
+OUTPUT d:\_PFE\report\rapport.lof
+INPUT d:\_PFE\report\rapport.lot
+INPUT d:\_PFE\report\rapport.lot
+OUTPUT d:\_PFE\report\rapport.lot
+INPUT d:\_PFE\report\introduction.tex
+INPUT d:\_PFE\report\introduction.tex
+INPUT d:\_PFE\report\Chapitre1.tex
+INPUT d:\_PFE\report\Chapitre1.tex
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr17.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmbx12.tfm
+INPUT figures\cherchini-logo.png
+INPUT .\figures\cherchini-logo.png
+INPUT .\figures\cherchini-logo.png
+INPUT .\figures\cherchini-logo.png
+INPUT .\figures\cherchini-logo.png
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmcsc10.tfm
+INPUT d:\_PFE\report\Chapitre2.tex
+INPUT d:\_PFE\report\Chapitre2.tex
+INPUT figures\triangle.png
+INPUT .\figures\triangle.png
+INPUT .\figures\triangle.png
+INPUT .\figures\triangle.png
+INPUT .\figures\triangle.png
+INPUT figures\archi.png
+INPUT .\figures\archi.png
+INPUT .\figures\archi.png
+INPUT .\figures\archi.png
+INPUT .\figures\archi.png
+INPUT figures\ucG.png
+INPUT .\figures\ucG.png
+INPUT .\figures\ucG.png
+INPUT .\figures\ucG.png
+INPUT .\figures\ucG.png
+INPUT figures\ucP.png
+INPUT .\figures\ucP.png
+INPUT .\figures\ucP.png
+INPUT .\figures\ucP.png
+INPUT .\figures\ucP.png
+INPUT figures\ucM.png
+INPUT .\figures\ucM.png
+INPUT .\figures\ucM.png
+INPUT .\figures\ucM.png
+INPUT .\figures\ucM.png
+INPUT figures\ucC.png
+INPUT .\figures\ucC.png
+INPUT .\figures\ucC.png
+INPUT .\figures\ucC.png
+INPUT .\figures\ucC.png
+INPUT figures\ucT.png
+INPUT .\figures\ucT.png
+INPUT .\figures\ucT.png
+INPUT .\figures\ucT.png
+INPUT .\figures\ucT.png
+INPUT figures\pu.png
+INPUT .\figures\pu.png
+INPUT .\figures\pu.png
+INPUT .\figures\pu.png
+INPUT .\figures\pu.png
+INPUT figures\puCycle.png
+INPUT .\figures\puCycle.png
+INPUT .\figures\puCycle.png
+INPUT .\figures\puCycle.png
+INPUT .\figures\puCycle.png
+INPUT figures\puTable.png
+INPUT .\figures\puTable.png
+INPUT .\figures\puTable.png
+INPUT .\figures\puTable.png
+INPUT .\figures\puTable.png
+INPUT d:\_PFE\report\Chapitre3.tex
+INPUT d:\_PFE\report\Chapitre3.tex
+INPUT d:\_PFE\report\seq.tex
+INPUT d:\_PFE\report\seq.tex
+INPUT figures\seq\A.png
+INPUT .\figures\seq\A.png
+INPUT .\figures\seq\A.png
+INPUT .\figures\seq\A.png
+INPUT .\figures\seq\A.png
+INPUT figures\seq\B.png
+INPUT .\figures\seq\B.png
+INPUT .\figures\seq\B.png
+INPUT .\figures\seq\B.png
+INPUT .\figures\seq\B.png
+INPUT figures\seq\C.png
+INPUT .\figures\seq\C.png
+INPUT .\figures\seq\C.png
+INPUT .\figures\seq\C.png
+INPUT .\figures\seq\C.png
+INPUT figures\seq\D.png
+INPUT .\figures\seq\D.png
+INPUT .\figures\seq\D.png
+INPUT .\figures\seq\D.png
+INPUT .\figures\seq\D.png
+INPUT figures\seq\E.png
+INPUT .\figures\seq\E.png
+INPUT .\figures\seq\E.png
+INPUT .\figures\seq\E.png
+INPUT .\figures\seq\E.png
+INPUT figures\seq\F.png
+INPUT .\figures\seq\F.png
+INPUT .\figures\seq\F.png
+INPUT .\figures\seq\F.png
+INPUT .\figures\seq\F.png
+INPUT figures\seq\G.png
+INPUT .\figures\seq\G.png
+INPUT .\figures\seq\G.png
+INPUT .\figures\seq\G.png
+INPUT .\figures\seq\G.png
+INPUT figures\seq\H.png
+INPUT .\figures\seq\H.png
+INPUT .\figures\seq\H.png
+INPUT .\figures\seq\H.png
+INPUT .\figures\seq\H.png
+INPUT d:\_PFE\report\Chapitre4.tex
+INPUT d:\_PFE\report\Chapitre4.tex
+INPUT d:\_PFE\report\conclusion.tex
+INPUT d:\_PFE\report\conclusion.tex
+INPUT d:\_PFE\report\rapport.aux
+INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rmsc.enc
+INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rm.enc
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmbx12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmbx12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmcsc10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmcsc10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmr12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmr12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmsy6.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmsy6.pfb

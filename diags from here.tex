@@ -1,0 +1,343 @@
+
+\chapter{Conception}
+
+Lors de chapitre on va s'immerger de plus en lus dans les d\'{e}tails de la conception ,
+on va tout d'abord illustrer les diagrammes de cas d'utilisation et par la suite nous définissons le product backlog etla planification des sprints,puis on va illustrer les diagrammes de s'{e}quences et le diagramme de classes en donnant une description d\'{e}taill\'{e} à notre base de donn\'{e}es.
+Et nous finissons par  une description plus d\'{e}taill\'{e} en passant par les diagrammes d'activit\'{e} et de d\'{e}ploiement.
+
+
+\section{Diagrammes de cas d'utilisation}
+\input{uc.tex}
+
+
+\section{Backlog de planning}
+
+\input{blp.tex}
+
+
+\FloatBarrier
+
+\section{Diagrammes de séquences}
+\input{seq.tex}
+
+
+
+\section{Diagramme de classes }
+
+
+
+\section{Conception de la base de donn\'{e}es}
+
+\subsection{Mod\`{e}le du liason des donn\'{e}es }
+L'architecture de notre application nous implique \`{a} cr\'{e}er un mod\`{e}le physique
+des donn\'{e}es , et nous avons pas \'{e}t\'{e} besoin d'un model conceptuel logique
+,puisque on a li\'{e}e directement les donn\'{e}es \`{a} l'application par le biais d'un
+pilote de connexion et pas par un ORM , et ceci est le diagramme
+Entit\'{e}s \textendash{}Relations de la base de donn\'{e}es qui est en interaction avec
+l'application web .
+Choix de la m\'{e}thodologie de conception :
+La liaison par des ORM ,ou poss\'{e}de des avantages bienque des inconv\'{e}nient ,
+parmi ses avantages :
+
+\bigskip
+\begin{itemize}
+\item{\textbf{La portabilit\'{e} :}  ORM est utilis\'{e} pour que vous \'{e}criviez votre structure une
+seule fois et la couche ORM g\'{e}rera l'instruction finale adapt\'{e}e au SGBD
+configur\'{e}. C'est un excellent avantage, car une op\'{e}ration simple, telle que
+limit, est ajout\'{e}e sous la forme "limit 0,100" \`{a} la fin de l'instruction select
+dans MySQL, alors qu'elle est "select top 100 from table" dans MS SQL.}
+
+\bigskip
+\item{\textbf{Imbrication de donn\'{e}es:} en cas de relations, la couche ORM extraira
+automatiquement les donn\'{e}es pour vous.}
+
+\bigskip
+\item{\textbf{Langage unique:} vous ne connaissez pas le langage SQL pour traiter la base
+de donn\'{e}es uniquement avec votre langage de d\'{e}veloppement.
+Ajouter revient \`{a} modifier: la plupart des couches ORM traitent l'ajout de
+nouvelles donn\'{e}es (insertion SQL) et la mise \`{a} jour des donn\'{e}es (SQL
+Update) de la m\^{e}me mani\`{e}re, ce qui facilite grandement l'\'{e}criture et la
+maintenance du code.}
+
+\item{\textbf{Imbrication de donn\'{e}es:} en cas de relations, la couche ORM extraira
+automatiquement les donn\'{e}es pour vous.}
+
+\end{itemize}
+
+\bigskip
+
+Et parmi les inconv\'{e}nients de l'ORM on trouve :
+
+
+
+\bigskip
+
+\begin{itemize}
+\item{\textbf{ La complexit\'{e} des requ\^{e}tes : }certaines couches ORM ont des limitations, en
+particulier lors de l'ex\'{e}cution de requ\^{e}tes. Vous serez donc parfois oblig\'{e}
+d'\'{e}crire en SQL brut.}
+
+\item{\textbf{Lenteur:}
+ si vous comparez les performances entre l'\'{e}criture de SQL brut ou
+l'utilisation d'ORM, vous trouverez le brut beaucoup plus rapidement car il
+n'y a pas de couche de traduction.}
+
+\item{\textbf{R\'{e}glage:} si vous connaissez bien le langage SQL et votre SGBD par d\'{e}faut,
+vous pouvez utiliser vos connaissances pour acc\'{e}l\'{e}rer les requ\^{e}tes, mais ce
+n'est pas la m\^{e}me chose avec ORM.}
+
+\item{\textbf{Configuration:}
+ si vous travaillez dans un projet Big Data et que vous n'\^{e}tes
+pas satisfait de la performance, vous vous retrouverez en train d'\'{e}tudier la
+couche ORM afin de pouvoir minimiser les occurrences du SGBD.}
+
+
+
+\end{itemize}
+
+
+\subsection{Diagramme de classes}
+
+\begin{figure}[H]
+\center
+\includegraphics[width=13cm,height=11cm]{./figures/class.png}
+\caption{Diagramme de classes.}
+
+\end{figure}
+\FloatBarrier
+
+\subsubsection{Tableau explicatif}
+
+Afin de clarifier ce sh\'{e}ma en explicant les diff\'{e}rents relations pour les
+entit\'{e}s ,nous avons choisi de les mettre dans un tableau descriptif .
+\FloatBarrier
+
+\begin{table}
+
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Nom relation                        & Entité E1                 & Entité E2                  & Relation(E1:E2) & Relation(E2:E1)  \\
+\hline
+\multirow{2}{*}{Projects -Tasks}    & \multirow{2}{*}{Projects} & \multirow{2}{*}{Tasks}     & 1 : N           & 1 : 1            \\
+\cline{4-5}
+                                    &                           &                            & Non-identifiée  & identifiée       \\
+\hline
+\multirow{2}{*}{Projects -Members}  & \multirow{2}{*}{Projects} & \multirow{2}{*}{Members}   & 1~: N           & 1~: 1            \\
+\cline{4-5}
+                                    &                           &                            & Non-identifiée  & Non-identifiée   \\
+\hline
+\multirow{2}{*}{Members-Tasks}      & \multirow{2}{*}{Members}  & \multirow{2}{*}{Tasks}     & 1~: N           & 1~: 1            \\
+\cline{4-5}
+                                    &                           &                            & Non-identifiée  & Non-identifiée   \\
+\hline
+\multirow{2}{*}{Projects-Customers} & \multirow{2}{*}{Projects} & \multirow{2}{*}{Customers} & 1~: 1           & 1~: N            \\
+\cline{4-5}
+                                    &                           &                            & Non-identifiée  & Non-identifiée   \\
+\hline
+\end{tabular}
+\centering
+\caption {Relations}
+
+\end{table}
+
+\FloatBarrier
+
+
+
+Les relations peuvent etre expliqu\'{e}es par les r\'{e}gles suivantes:
+\begin{itemize}
+\item{ Une relation non identifi\'{e}e 1 :N  entre une entit\'{e} E1 et une autre E2:}
+Pour E1 il existe ou il n'existe pas une ou plusieurs entit\'{e}s E2
+\bigskip
+
+\item{Une relation non identifi\'{e}e 1 :1 entre une entit\'{e} E1 et une autre E2:}
+Pour E1 il existe ou il n'existe pas une entit\'{e} E2
+\bigskip
+
+\item{Une relation identifi\'{e}e 1 :N entre une entit\'{e} E1 et une autre E2: }
+ Pour E1 il existe une ou plusieurs entit\'{e}s E2
+ \bigskip
+
+\item{Une relation identifi\'{e}e 1 :1 entre une entit\'{e} E1 et une autre E2: }
+ Pour E1 il existe une entit\'{e} E2
+ \bigskip
+
+\end{itemize}
+
+\newpage
+
+\subsubsection{Description d\'{e}taill\'{e}e}
+\bigskip
+Ainsi nous avons utilis\'{e} la requite \textquotedblleft{}describe NOM\_TABLE\textquotedblright{} qui est
+disponible dans le langage MySQL et qui permet de d\'{e}crir les champs ,leurs
+types et leurs sp\'{e}cifications pour chaque table utilis\'{e}e
+Ces figures montrent la description d\'{e}taill\'{e}e de chaque table utilis\'{e}e dans
+notre application:
+\bigskip
+
+\begin{itemize}
+
+
+\item{La table \guillemotleft{} projects \guillemotright{}}
+
+
+\begin{table}
+
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+Field         & Type          & Null & Key & Default & Extra            \\
+\hline
+id            & int(11)       & NO   & PRI & NULL    & auto\_increment  \\
+\hline
+name          & varchar(45)   & NO   &     & NULL    &                  \\
+\hline
+description   & varchar(1000) & YES  &     & NULL    &                  \\
+\hline
+start         & date          & NO   &     & NULL    &                  \\
+\hline
+end           & date          & NO   &     & NULL    &                  \\
+\hline
+category      & varchar(60)   & YES  &     & NULL    &                  \\
+\hline
+customers\_id & int(11)       & YES  & MUL & NULL    &                  \\
+\hline
+\end{tabular}
+\centering
+ \caption {Projects.}
+\end{table}
+
+
+\item{La table \guillemotleft{} tasks \guillemotright{}}
+
+\begin{table}
+
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+Field        & Type         & Null & Key & Default            & Extra            \\
+\hline
+id           & int(11)      & NO   & PRI & NULL               & auto\_increment  \\
+\hline
+login        & varchar(30)  & YES  &     & NULL               &                  \\
+\hline
+password     & varchar(15)  & YES  &     & NULL               &                  \\
+\hline
+firstname    & varchar(50)  & YES  &     & NULL               &                  \\
+\hline
+lastname     & varchar(30)  & YES  &     & NULL               &                  \\
+\hline
+email        & varchar(100) & YES  &     & NULL               &                  \\
+\hline
+hiredate     & datetime     & YES  &     & CURRENT\_TIMESTAMP &                  \\
+\hline
+color        & varchar(6)   & YES  &     & NULL               &                  \\
+\hline
+projects\_id & int(11)      & YES  & MUL & NULL               &                  \\
+\hline
+pname        & varchar(50)  & YES  &     & NULL               &                  \\
+\hline
+\end{tabular}
+\centering
+ \caption {Tasks.}
+\end{table}
+
+
+
+
+\item{La table \guillemotleft{} members \guillemotright{}}
+
+\begin{table}
+
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+Field        & Type         & Null & Key & Default            & Extra            \\
+\hline
+id           & int(11)      & NO   & PRI & NULL               & auto\_increment  \\
+\hline
+login        & varchar(30)  & YES  &     & NULL               &                  \\
+\hline
+password     & varchar(15)  & YES  &     & NULL               &                  \\
+\hline
+firstname    & varchar(50)  & YES  &     & NULL               &                  \\
+\hline
+lastname     & varchar(30)  & YES  &     & NULL               &                  \\
+\hline
+email        & varchar(100) & YES  &     & NULL               &                  \\
+\hline
+hiredate     & datetime     & YES  &     & CURRENT\_TIMESTAMP &                  \\
+\hline
+color        & varchar(6)   & YES  &     & NULL               &                  \\
+\hline
+projects\_id & int(11)      & YES  & MUL & NULL               &                  \\
+\hline
+pname        & varchar(50)  & YES  &     & NULL               &                  \\
+\hline
+\end{tabular}
+\centering
+ \caption {Members.}
+
+\end{table}
+
+
+
+\item{La table \guillemotleft{} customers \guillemotright{}}
+
+
+\begin{table}
+
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+Field            & Type          & Null & Key & Default            & Extra            \\
+\hline
+id               & int(11)       & NO   & PRI & NULL               & auto\_increment  \\
+\hline
+name             & varchar(45)   & YES  &     & NULL               &                  \\
+\hline
+phone            & varchar(45)   & YES  &     & NULL               &                  \\
+\hline
+address          & varchar(1000) & YES  &     & NULL               &                  \\
+\hline
+email            & varchar(50)   & YES  &     & NULL               &                  \\
+\hline
+longitude        & double        & YES  &     & NULL               &                  \\
+\hline
+latitude         & double        & YES  &     & NULL               &                  \\
+\hline
+subscriptionDate & datetime      & YES  &     & CURRENT\_TIMESTAMP &                  \\
+\hline
+\end{tabular}
+\centering
+\caption{Customers}
+\end{table}
+\end{itemize}
+
+
+\section{Diagramme de d\'{e}ploiement }
+\input{dep.tex}
+
+\section{Diagramme d'activit\'{e}}
+Le diagramme d'activit\'{e} nous permet de d\'{e}crire les traitements. Il est
+particuli\`{e}rement adapt\'{e} \`{a} la mod\'{e}lisation du cheminement de flots de
+contr\^{o}le et de flots de donn\'{e}es. Il permet ainsi de repr\'{e}senter le
+comportement d'une m\'{e}thode ou le d\'{e}roulement d'un cas d'utilisation dans
+un graphe.
+Les diagrammes d'activit\'{e}s sont tr\`{e}s proches des diagrammes d'\'{e}tats-
+transitions dans leur pr\'{e}sentation, mais leur interpr\'{e}tation est diff\'{e}rente.
+Une activit\'{e} repr\'{e}sente une ex\'{e}cution d'un m\'{e}canisme, un d\'{e}roulement
+d'\'{e}tapes s\'{e}quentielles. Le passage d'une activit\'{e} vers une autre est mat\'{e}rialis\'{e}
+par une transition.
+Les transitions sont d\'{e}clench\'{e}es par la fin d'une activit\'{e} et provoquent le
+d\'{e}but imm\'{e}diat d'une autre.
+Dans la page suivante , nous pr\'{e}sentons notre diagramme d'activit\'{e} qui illustre le
+d\'{e}roulement s\'{e}quentiel des traitements accomplis par l'administrateur afin de
+cr\'{e}er et g\'{e}rer un projet.
+\includepdf{./pdf/activity.pdf}
+
+
+Ainsi , la figure suivante représente le diagramme d'activit\'{e} pour un membre :
+\begin{figure}[H]
+\center
+\includegraphics[width=13cm,height=11cm]{./figures/activity_m.png}
+\caption{Diagramme d'activit\'{e} pour un membre.}
+
+\end{figure}
+\FloatBarrier

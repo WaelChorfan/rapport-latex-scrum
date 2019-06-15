@@ -1,0 +1,69 @@
+\documentclass[12pt]{report}
+\usepackage{graphicx}
+\usepackage{fmtcount}
+\usepackage{textcomp}
+\usepackage{txfonts}
+\usepackage{makeidx}
+\usepackage{multirow}
+\usepackage{cite}
+\usepackage{algorithm,algorithmic}
+\usepackage{pdfpages}
+\usepackage[toc,page]{appendix}
+\usepackage{apacite}
+\usepackage[francais]{babel}
+\usepackage[nottoc, notlof, notlot]{tocbibind}
+\usepackage{lscape}
+\usepackage{lmodern}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{placeins}
+\usepackage[utf8]{inputenc}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linktoc=all,
+    linkcolor=black,
+    urlcolor=blue
+}
+
+
+
+\begin{document}
+\includepdf{PageDeGarde.pdf}
+\includepdf{./pdf/signature.pdf}
+\tableofcontents
+\listoffigures
+\listoftables
+\includepdf{1.pdf}
+\includepdf{2.pdf}
+\includepdf{3.pdf}
+\setcounter{page}{1} \pagenumbering{roman}
+\pagenumbering{arabic}
+\input{introduction.tex}
+
+\part{Aspects Th\'{e}oriques }
+
+\input{Chapitre1.tex}
+
+\input{Chapitre2.tex}
+
+
+
+\part{Aspects Pratiques}
+
+ \input{Chapitre3.tex}
+ \input{Chapitre4.tex}
+ 
+
+
+ 
+
+ \input{conclusion.tex}
+
+\input{ra.tex}
+\pagestyle{plain}
+\end{document}
