@@ -165,8 +165,10 @@ se basant sur l’architecture suivante.
 Comme nous avons indiqu\'{e}, pour \^{e}tre capable d'\'{e}tendre les fonctionnalit\'{e}s
 selon le besoin en \'{e}vitant la complexit\'{e} des outils existantes et les couts de
 paiement pour chaque fonctionnalit\'{e}, on a adopt\'{e} des technologies open
-sources et gratuits, et voici les technologies qu'on a utilis\'{e} :
+sources et gratuits, et voici les technologies qu'on a utilis\'{e}:
+
 \begin{itemize}
+
 \item{Pour la base de donn\'{e}es : MYSQL}
 \item{Pour le serveur et API REST : Express JS ,NODE JS}
 \item{Moteur de Template (engine view) : EJS }
@@ -177,6 +179,130 @@ sources et gratuits, et voici les technologies qu'on a utilis\'{e} :
 
 \end{itemize}
 
-\section{Etude foncionnelle et choix m\'{e}thodologique}
+\section{ Etude m\'{e}thodologique }
 
 
+
+  \subsection{Choix de la   m\'{e}thodologie}
+
+  Dans la plupart des projets, on a besoin de suivre un processus qui d\'{e}finit
+QUI fait QUOI, QUAND et COMMENT pour \^{e}tre capable de :
+
+\begin{itemize}
+\item{Atteindre un certain objectif.}
+\item{Construire des mod\`{e}les d'un ou de plusieurs syst\`{e}mes.}
+\item{G\'{e}rer le cycle de vie du projet de A \`{a} Z.}
+\item{Organiser le projet}
+\item{G\'{e}rer les risques}
+\item{Obtenir de mani\`{e}re r\'{e}p\'{e}titive des produits de qualit\'{e} constante}
+\end{itemize}
+
+Le choix entre une m\'{e}thode et une autre, d\'{e}pend de la nature du projet et de sa taille. Pour des
+projets de petite taille et dont le domaine est ma\^{\i}tris\'{e}, par exemple, un cycle de vie en cascade
+s'av\`{e}re largement su Sant. Lorsqu'il s'agit d'un projet o\`{u} les donn\'{e}es ne sont pas r\'{e}unies d\`{e}s le
+d\'{e}part, o\`{u} les besoins sont incomplets voire floues, il faut s'orienter vers une m\'{e}thode it\'{e}rative
+ou orient\'{e}es prototypes.
+Parmi les m\'{e}thodes it\'{e}ratives, nous pouvons distinguer les m\'{e}thodes agiles largement utilis\'{e}es
+de nos jours \`{a} travers le monde. Une m\'{e}thode agile est men\'{e}e dans un esprit collaboratif et
+s'adapte aux approches incr\'{e}mentales. Elle engendre des produits de haute qualit\'{e} tout en tenant
+compte de l'\'{e}volution des besoins du client.
+La nature de projet qui doit \^{e}tre \'{e}volutif et dont tous les besoins n'ont pas encore \'{e}t\'{e}
+totalement identit\'{e}s, nous a orient\'{e}es vers une m\'{e}thode de type agile et plus particuli\`{e}rement
+SCRUM.
+  \subsection{Pr\'{e}sentation de la m\'{e}thodologie SCRUM}
+Scrum signifie m\^{e}l\'{e}e au rugby. Il exploite les valeurs et l'esprit du rugby et les adapte aux
+projets de d\'{e}veloppement. Comme le pack lors d'un ballon port\'{e} au rugby, l'\'{e}quipe charg\'{e}e du
+d\'{e}veloppement de travaille de fa\c{c}on collective, soud\'{e}e vers un objectif pr\'{e}cis. Comme un demi
+de m\^{e}l\'{e}e, le ScrumMaster est le responsable du projet qui oriente les membres de l'\'{e}quipe dans
+la bonne direction, assure l'environnement de travail et chercher \`{a} am\'{e}liorer la productivit\'{e} et
+le savoir faire de don \'{e}quipe.
+Scrum se base sur la th\'{e}orie du contr\^{o}le empirique de processus. L'empirisme mentionne que
+les connaissances proviennent de l'exp\'{e}rience et d'une prise de d\'{e}cision bas\'{e}e sur des faits
+connus. Scrum utilise une approche it\'{e}rative et incr\'{e}mentale pour optimiser la pr\'{e}dictibilit\'{e} et
+contr\^{o}ler le risque.
+\begin{figure}[H]
+\center
+\includegraphics[width=10cm,height=6cm]{./figures/scrum.png}
+\caption{Logo de Cherchini.}
+
+\end{figure}
+
+Comme nous pouvons le remarquer dans cette figure, pour mettre en place la m\'{e}thode
+SCRUM, il faut tout d'abord d\'{e}finir les diff\'{e}rentes fonctionnalit\'{e}s de notre application qui
+forment le Backlog du produit. Ensuite, nous proc\'{e}dons \`{a} la planification du sprint pour d\'{e}finir
+le plan d\'{e}taill\'{e} d'une it\'{e}ration. Les sprints durent g\'{e}n\'{e}ralement deux \`{a} quatre semaines. Durant
+un sprint, il y a toujours des r\'{e}unions quotidiennes entre les diff\'{e}rents collaborateurs du projet
+pour pr\'{e}senter l'\'{e}tat d'avancement des diff\'{e}rentes t\^{a}ches en cours, les difficult\'{e}s rencontr\'{e}es
+ainsi que les t\^{a}ches restantes \`{a} r\'{e}aliser. Une fois le produit partiel est pr\^{e}t, nous v\'{e}rifions la
+conformit\'{e} de ce qui a \'{e}t\'{e} fait durant le sprint et nous pouvons alors l'am\'{e}liorer en proc\'{e}dant \`{a}
+l'\'{e}tape de r\'{e}trospective.
+
+
+\subsection{Planning du projet}
+Le tableau suivant résume les \'{e}tapes que nous avons suivies:
+
+
+\begin{table}
+
+\begin{tabular}{|l|l|l|}
+\hline
+Backlog                         & Sprint                                                                                                                                         & Durée                 \\
+\hline
+\multirow{5}{*}{Etape Initiale} & Recherche sur les nouvelles technologies qu’on va utiliser                                                                                     & 3 Semaines            \\
+\cline{2-3}
+                                & Formation sur les langages                                                                                                                     & 3 Semaines            \\
+\cline{2-3}
+                                & Rédaction du chapitre présentation de cadre générale                                                                                           & 2 jours               \\
+\cline{2-3}
+                                & \begin{tabular}[c]{@{}l@{}}Création des diagrammes (Diagramme de classe, \\Diagramme de séquence, Diagramme de cas d’utilisation)\end{tabular} & 3 Semaines            \\
+\cline{2-3}
+                                & Rédaction du chapitre spécification des besoins                                                                                                & 2 jours               \\
+\hline
+\multicolumn{3}{|l|}{Réunion}                                                                                                                                                                            \\
+\hline
+\multirow{5}{*}{Etape 2}        & \begin{tabular}[c]{@{}l@{}}Création des premières interfaces de l’application(Gestion\\~des membres \\,clients ,projet ,tâches ) \end{tabular} & 1 Semaine             \\
+\cline{2-3}
+                                & Rédaction du chapitre conception                                                                                                               & 2 jours               \\
+\cline{2-3}
+                                & Création diagramme de Gantt                                                                                                                    & 1 jour                \\
+\cline{2-3}
+                                & Maintenance et test de la fonctionnalité gestion de projet                                                                                     & 2 jours               \\
+\cline{2-3}
+                                & Développement de l’interface Gannt et de la carte géographique                                                                                 & 2 jours               \\
+\hline
+\multicolumn{3}{|l|}{Réunion}                                                                                                                                                                            \\
+\hline
+\multirow{2}{*}{Etape 3}        & Développement de~L’interface membre                                                                                                            & 1 Semaine             \\
+\cline{2-3}
+                                & Développement de la partie Authentification                                                                                                    & 1 Semaine             \\
+\hline
+\multicolumn{3}{|l|}{Réunion}                                                                                                                                                                            \\
+\hline
+\multirow{2}{*}{Etape 4}        & Développement de la partie~ETL                                                                                                                 & 3 jours               \\
+\cline{2-3}
+                                & Ajouter les rapports à l’interface administrateur                                                                                              & 1 jour                \\
+\hline
+\multicolumn{3}{|l|}{Réunion}                                                                                                                                                                            \\
+\hline
+\multirow{2}{*}{Etape finale}   & Dernières retouches sur le design de~l’application                                                                                             & 3 jours               \\
+\cline{2-3}
+                                & Mises à jour du~rapport                                                                                                                        & 3 jours               \\
+\hline
+\multicolumn{1}{l}{}            & \multicolumn{1}{l}{}                                                                                                                           & \multicolumn{1}{l}{}  \\
+\multicolumn{1}{l}{}            & \multicolumn{1}{l}{}                                                                                                                           & \multicolumn{1}{l}{}  \\
+\multicolumn{1}{l}{}            & \multicolumn{1}{l}{}                                                                                                                           & \multicolumn{1}{l}{}
+\end{tabular}
+\centering
+\caption{ Planning du projet}
+\end{table}
+\subsection{Diagramme de Gantt}
+
+\FloatBarrier
+\begin{figure}[H]
+
+\begin{center}
+\includegraphics[width=17cm,height=15cm]{./figures/gantt.png}
+\caption{Diagramme de Gantt.}
+\end{center}
+\end {figure}
+\FloatBarrier
