@@ -27,22 +27,25 @@
     colorlinks=true,
     linktoc=all,
     linkcolor=black,
-    urlcolor=blue
-}
-
+    urlcolor=blue}
 
 
 \begin{document}
 \includepdf{PageDeGarde.pdf}
 \includepdf{./pdf/signature.pdf}
+
 \tableofcontents
 \listoffigures
 \listoftables
+
 \includepdf{1.pdf}
 \includepdf{2.pdf}
 \includepdf{3.pdf}
+
 \setcounter{page}{1} \pagenumbering{roman}
+
 \pagenumbering{arabic}
+
 \input{introduction.tex}
 
 \part{Aspects Th\'{e}oriques }
@@ -50,16 +53,13 @@
 \input{Chapitre1.tex}
 \input{Chapitre2.tex}
 
-
 \part{Aspects Pratiques}
 
-
- \input{Chapitre3.tex}
- \input{Chapitre4.tex}
- \input{Chapitre5.tex}
+\input{Chapitre3.tex}
+\input{Chapitre4.tex}
+\input{Chapitre5.tex}
  
-
- \input{conclusion.tex}
+\input{conclusion.tex}
 
 \input{ra.tex}
 \pagestyle{plain}
