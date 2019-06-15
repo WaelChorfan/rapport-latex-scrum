@@ -1,11 +1,27 @@
 \chapter{Release 1}
 \section{Introduction}
 
+
 Le terme release d\'{e}signe ici une version de notre application constitu\'{e}e d'une suite d'it\'{e}rations
 qui se terminent quand les incr\'{e}ments de ces derniers construisent un produit pr\'{e}sentant
 suffisamment de valeur \`{a} l'utilisateur.
-Dans ce chapitre, nous allons nous int\'{e}resser \`{a} la premier release, de l'analyse des besoins
-jusqu'au test. Nous traiterons en d\'{e}tails chacun des cas d'utilisation pr\'{e}alablement pr\'{e}sent\'{e}s.
+
+Dans ce chapitre, nous nous intéressons principalement par l'application web ,et nous allons nous int\'{e}resser \`{a} la premi\`{e}re release dans laquelle nous traitons en d\'{e}tails chacun des cas d'utilisation pr\'{e}alablement pr\'{e}sent\'{e}s.
+Ainsi ,selon le sprint ,on précisons l'analyse qui consiste  \`{a} illustrer le diagramme de cas d'utilisation ,la conception pour pr\'{e}senter
+le diagramme de s\'{e}quence et le sch\'{e}ma  de base de donn\'{e}es et nous finissons par le test en pr\'{e}sentant
+les interfaces correspondantes.
+
+Pour chaque sprint on va pr\'{e}senter le cas d'utilisation,la conception qui consiste \`{a} d\'{e}crire
+le sch\'{e}ma de la base de donn\'{e}es  des mod\'{e}les correspondants.
+
+Ainsi ,contrairement aux cycles de d\'{e}veloppement s\'{e}quentiel, avec la m\'{e}thodologie agile, le test n'est
+pas une phase qui se d\'{e}roule apr\`{e}s la fin de d\'{e}veloppement. En effet, les tests seront int\'{e}gr\'{e}s
+d\`{e}s le d\'{e}but du premier sprint jusqu'\`{a} la livraison du produit final.
+
+Enfin ,nous illustrons  la m\'{e}thode de liason de donn\'{e}es que nous avons suivi 
+ainsi nous présentons le diagramme de classes ,le diagramme  d'activit\'{e} et le diagramme  de d\'{e}ploiement 
+pour mieux expliquer notre application.
+
 
 \section{ Sprint 1 }
 \input{sp11.tex}
@@ -19,8 +35,180 @@ jusqu'au test. Nous traiterons en d\'{e}tails chacun des cas d'utilisation pr\'{
 \section{ Sprint 4 }
 \input{sp14.tex}
 
-\section{ Sprint 5 }
-\input{sp15.tex}
+\section{Structure de l'application}
+Le sh\'{e}ma suivant pr\'{e}sente la structure de notre application
+\includepdf{./pdf/structure.pdf}
 
-\section{ Sprint 6 }
-\input{sp16.tex}
+
+\section{Conception de la base de donn\'{e}es}
+
+\subsection{Mod\`{e}le du liason des donn\'{e}es }
+L'architecture de notre application nous implique \`{a} cr\'{e}er un mod\`{e}le physique
+des donn\'{e}es , et nous avons pas \'{e}t\'{e} besoin d'un model conceptuel logique
+,puisque on a li\'{e}e directement les donn\'{e}es \`{a} l'application par le biais d'un
+pilote de connexion et pas par un ORM , et ceci est le diagramme
+Entit\'{e}s \textendash{}Relations de la base de donn\'{e}es qui est en interaction avec
+l'application web .
+Choix de la m\'{e}thodologie de conception :
+La liaison par des ORM ,ou poss\'{e}de des avantages bienque des inconv\'{e}nient ,
+parmi ses avantages :
+
+\bigskip
+\begin{itemize}
+\item{\textbf{La portabilit\'{e} :}  ORM est utilis\'{e} pour que vous \'{e}criviez votre structure une
+seule fois et la couche ORM g\'{e}rera l'instruction finale adapt\'{e}e au SGBD
+configur\'{e}. C'est un excellent avantage, car une op\'{e}ration simple, telle que
+limit, est ajout\'{e}e sous la forme "limit 0,100" \`{a} la fin de l'instruction select
+dans MySQL, alors qu'elle est "select top 100 from table" dans MS SQL.}
+
+\bigskip
+\item{\textbf{Imbrication de donn\'{e}es:} en cas de relations, la couche ORM extraira
+automatiquement les donn\'{e}es pour vous.}
+
+\bigskip
+\item{\textbf{Langage unique:} vous ne connaissez pas le langage SQL pour traiter la base
+de donn\'{e}es uniquement avec votre langage de d\'{e}veloppement.
+Ajouter revient \`{a} modifier: la plupart des couches ORM traitent l'ajout de
+nouvelles donn\'{e}es (insertion SQL) et la mise \`{a} jour des donn\'{e}es (SQL
+Update) de la m\^{e}me mani\`{e}re, ce qui facilite grandement l'\'{e}criture et la
+maintenance du code.}
+
+\item{\textbf{Imbrication de donn\'{e}es:} en cas de relations, la couche ORM extraira
+automatiquement les donn\'{e}es pour vous.}
+
+\end{itemize}
+
+\bigskip
+
+Et parmi les inconv\'{e}nients de l'ORM on trouve :
+
+
+
+\bigskip
+
+\begin{itemize}
+\item{\textbf{ La complexit\'{e} des requ\^{e}tes : }certaines couches ORM ont des limitations, en
+particulier lors de l'ex\'{e}cution de requ\^{e}tes. Vous serez donc parfois oblig\'{e}
+d'\'{e}crire en SQL brut.}
+
+\item{\textbf{Lenteur:}
+ si vous comparez les performances entre l'\'{e}criture de SQL brut ou
+l'utilisation d'ORM, vous trouverez le brut beaucoup plus rapidement car il
+n'y a pas de couche de traduction.}
+
+\item{\textbf{R\'{e}glage:} si vous connaissez bien le langage SQL et votre SGBD par d\'{e}faut,
+vous pouvez utiliser vos connaissances pour acc\'{e}l\'{e}rer les requ\^{e}tes, mais ce
+n'est pas la m\^{e}me chose avec ORM.}
+
+\item{\textbf{Configuration:}
+ si vous travaillez dans un projet Big Data et que vous n'\^{e}tes
+pas satisfait de la performance, vous vous retrouverez en train d'\'{e}tudier la
+couche ORM afin de pouvoir minimiser les occurrences du SGBD.}
+
+
+
+\end{itemize}
+
+
+\subsection{Diagramme de classes}
+
+\begin{figure}[H]
+\center
+\includegraphics[width=13cm,height=11cm]{./figures/class.png}
+\caption{Diagramme de classes.}
+
+\end{figure}
+\FloatBarrier
+
+\subsubsection{Tableau explicatif}
+
+Afin de clarifier ce sh\'{e}ma en explicant les diff\'{e}rents relations pour les
+entit\'{e}s ,nous avons choisi de les mettre dans un tableau descriptif .
+\FloatBarrier
+
+\begin{table}
+
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Nom relation                        & Entité E1                 & Entité E2                  & Relation(E1:E2) & Relation(E2:E1)  \\
+\hline
+\multirow{2}{*}{Projects -Tasks}    & \multirow{2}{*}{Projects} & \multirow{2}{*}{Tasks}     & 1 : N           & 1 : 1            \\
+\cline{4-5}
+                                    &                           &                            & Non-identifiée  & identifiée       \\
+\hline
+\multirow{2}{*}{Projects -Members}  & \multirow{2}{*}{Projects} & \multirow{2}{*}{Members}   & 1~: N           & 1~: 1            \\
+\cline{4-5}
+                                    &                           &                            & Non-identifiée  & Non-identifiée   \\
+\hline
+\multirow{2}{*}{Members-Tasks}      & \multirow{2}{*}{Members}  & \multirow{2}{*}{Tasks}     & 1~: N           & 1~: 1            \\
+\cline{4-5}
+                                    &                           &                            & Non-identifiée  & Non-identifiée   \\
+\hline
+\multirow{2}{*}{Projects-Customers} & \multirow{2}{*}{Projects} & \multirow{2}{*}{Customers} & 1~: 1           & 1~: N            \\
+\cline{4-5}
+                                    &                           &                            & Non-identifiée  & Non-identifiée   \\
+\hline
+\end{tabular}
+\centering
+\caption {Relations}
+\end{table}
+\FloatBarrier
+
+Les relations peuvent etre expliqu\'{e}es par les r\'{e}gles suivantes:
+\begin{itemize}
+\item{ Une relation non identifi\'{e}e 1 :N  entre une entit\'{e} E1 et une autre E2:}
+Pour E1 il existe ou il n'existe pas une ou plusieurs entit\'{e}s E2
+\bigskip
+
+\item{Une relation non identifi\'{e}e 1 :1 entre une entit\'{e} E1 et une autre E2:}
+Pour E1 il existe ou il n'existe pas une entit\'{e} E2
+\bigskip
+
+\item{Une relation identifi\'{e}e 1 :N entre une entit\'{e} E1 et une autre E2: }
+ Pour E1 il existe une ou plusieurs entit\'{e}s E2
+ \bigskip
+
+\item{Une relation identifi\'{e}e 1 :1 entre une entit\'{e} E1 et une autre E2: }
+ Pour E1 il existe une entit\'{e} E2
+ \bigskip
+
+\end{itemize}
+
+\newpage 
+
+
+
+\section{Diagramme de d\'{e}ploiement }
+\input{dep.tex}
+
+
+\section{Diagramme d'activit\'{e}}
+Le diagramme d'activit\'{e} nous permet de d\'{e}crire les traitements. Il est
+particuli\`{e}rement adapt\'{e} \`{a} la mod\'{e}lisation du cheminement de flots de
+contr\^{o}le et de flots de donn\'{e}es. Il permet ainsi de repr\'{e}senter le
+comportement d'une m\'{e}thode ou le d\'{e}roulement d'un cas d'utilisation dans
+un graphe.
+Les diagrammes d'activit\'{e}s sont tr\`{e}s proches des diagrammes d'\'{e}tats-
+transitions dans leur pr\'{e}sentation, mais leur interpr\'{e}tation est diff\'{e}rente.
+Une activit\'{e} repr\'{e}sente une ex\'{e}cution d'un m\'{e}canisme, un d\'{e}roulement
+d'\'{e}tapes s\'{e}quentielles. Le passage d'une activit\'{e} vers une autre est mat\'{e}rialis\'{e}
+par une transition.
+Les transitions sont d\'{e}clench\'{e}es par la fin d'une activit\'{e} et provoquent le
+d\'{e}but imm\'{e}diat d'une autre.
+Dans la page suivante , nous pr\'{e}sentons notre diagramme d'activit\'{e} qui illustre le
+d\'{e}roulement s\'{e}quentiel des traitements accomplis par l'administrateur afin de
+cr\'{e}er et g\'{e}rer un projet.
+\includepdf{./pdf/activity.pdf}
+
+
+Ainsi , la figure suivante représente le diagramme d'activit\'{e} pour un membre :
+\begin{figure}[H]
+\center
+\includegraphics[width=13cm,height=11cm]{./figures/activity_m.png}
+\caption{Diagramme d'activit\'{e} pour un membre.}
+
+\end{figure}
+\FloatBarrier
+
+
+

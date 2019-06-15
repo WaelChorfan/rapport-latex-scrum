@@ -1,36 +1,99 @@
- Selon la planification \'{e}tablie, le premier Sprint porte principalement sur le cas
-d'utilisation \guillemotleft{} G\'{e}rer un planning d'affectation\guillemotright{} que nous allons d\'{e}cortiquer par la suite.
-L'objectif de cette premi\`{e}re it\'{e}ration est de fournir une interface qui va permettre \`{a}
-l'administrateur d'ajouter, mettre \`{a} jour et consulter les informations et les d\'{e}tails des membres.
+
 
 \subsection{Analyse}
 
- Cas d'utilisation \guillemotleft{} G\'{e}rer un planning d'affectation\guillemotright{}
-Dans cette activit\'{e} nous allons raffiner les cas d'utilisation prioritaire et les d\'{e}crire en d\'{e}tail
-afin de mieux visualiser notre application.
-D\'{e}tailler le cas d'utilisation \guillemotleft{}G\'{e}rer un planning d'affectation\guillemotright{} revient \`{a} d\'{e}tailler 
-ses sous cas d'utilisation \`{a} savoir :
-\textbullet{} Ajouter un planning d'affectation,
-\textbullet{} Mettre \`{a} jour un planning d'affectation
+    \textbf{ Diagramme de cas d'utilisation "G\'{e}rer un membre"}
+    \begin{figure}[H]
+    \center
+    \includegraphics[width=13cm,height=8cm]{./figures/ucM.png}
+    \caption{G\'{e}rer un membre.}
 
+    \end{figure}
 
 \subsection{Conception}
+\subsubsection{Le sc\'{e}nario \guillemotleft{} Cr\'{e}ation d'un membre \guillemotright{}}
 
- Diagramme de séquence gestion membres
+Le diagramme de s\'{e}quence \guillemotleft{} Ajout d'une t\^{a}che \guillemotright{} pr\'{e}sente le s\'{e}quencement
+des interactions entre Administrateur, Application et Base de donn\'{e}es (BD).
 
-\subsection{Codage}
 
- Dans cette activité nous passons au développement et à l’implémentation des cas d’utilisation
-analysés et conçus.
-Nous nous intéresserons alors de plus près au schéma de la base de données en présentant la
-table « Planification» tout en tenant compte du type de leur attribut.
+\subsection{Sch\'{e}ma}
 
-Table membres
+\item{La table \guillemotleft{} members \guillemotright{}}
+
+\begin{table}
+
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+Field        & Type         & Null & Key & Default            & Extra            \\
+\hline
+id           & int(11)      & NO   & PRI & NULL               & auto\_increment  \\
+\hline
+login        & varchar(30)  & YES  &     & NULL               &                  \\
+\hline
+password     & varchar(15)  & YES  &     & NULL               &                  \\
+\hline
+firstname    & varchar(50)  & YES  &     & NULL               &                  \\
+\hline
+lastname     & varchar(30)  & YES  &     & NULL               &                  \\
+\hline
+email        & varchar(100) & YES  &     & NULL               &                  \\
+\hline
+hiredate     & datetime     & YES  &     & CURRENT\_TIMESTAMP &                  \\
+\hline
+color        & varchar(6)   & YES  &     & NULL               &                  \\
+\hline
+projects\_id & int(11)      & YES  & MUL & NULL               &                  \\
+\hline
+pname        & varchar(50)  & YES  &     & NULL               &                  \\
+\hline
+\end{tabular}
+\centering
+ \caption {Members.}
+\end{table}
+
 
 \subsection{Test}
-Contrairement aux cycles de développement séquentiel, avec la méthodologie agile, le test n'est
-pas une phase qui se déroule après la fin de développement. En effet, les tests seront intégrés
-dès le début du premier sprint jusqu’à la livraison du produit final.
-Dans ce premier sprint, nous avons testé la fonctionnalité « Gérer Receveur» qui affiche, ajout,
-supprime les receveurs de la base de données.
-Ci-dessus nous ajoutons des captures écran du sprint réalisé.
+
+Dans ce premier sprint, nous testons la fonctionnalit\'{e}
+« Gestion des membres» qui affiche, ajoute,
+supprime les membres de la base de donn\'{e}es.
+Ci-dessus nous ajoutons des captures \'{e}cran du sprint r\'{e}alis\'{e}.
+
+\bigskip
+\bigskip
+
+Lors de la cr\'{e}ation d'un utilisateur , un email contenant son mot de passe lui
+sera envoy\'{e}, ainsi si on modifie les param\'{e}tres d'utilisateur , un nouveeau
+mot de passe lui sera envoy\'{e} sur la nouvelle addresse email .
+
+\bigskip
+\bigskip
+
+\FloatBarrier
+\begin{figure}[H]
+\center
+\includegraphics[width=11cm,height=7cm]{./figures/pres/mm1.png}
+\caption{Gestion des membres.1.}
+\end{figure}
+\FloatBarrier
+
+
+
+\FloatBarrier
+\begin{figure}[H]
+\center
+\includegraphics[width=11cm,height=7cm]{./figures/pres/mm2.png}
+\caption{Gestion des membres.2.}
+\end{figure}
+\FloatBarrier
+
+
+\FloatBarrier
+\begin{figure}[H]
+\center
+\includegraphics[width=11cm,height=7cm]{./figures/pres/mm3.png}
+\caption{Gestion des membres.3.}
+\end{figure}
+\FloatBarrier
+
