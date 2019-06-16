@@ -1,0 +1,113 @@
+\babel@toc {french}{}
+\contentsline {chapter}{Table des mati\`{e}res}{5}{chapter*.1}% 
+\contentsline {chapter}{Table des figures}{8}{chapter*.2}% 
+\contentsline {chapter}{Liste des tableaux}{9}{chapter*.3}% 
+\contentsline {chapter}{Introduction g\'{e}n\'{e}rale}{1}{chapter*.4}% 
+\contentsline {chapter}{\numberline {1}Cadre g\'{e}ng\'{e}rale du projet}{3}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Contexte du travail}{3}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Pr\'{e}sentation de l'organisme d'accueil}{3}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Contexte du projet }{4}{section.1.4}% 
+\contentsline {section}{\numberline {1.5} Etude de l'existant }{5}{section.1.5}% 
+\contentsline {subsection}{\numberline {1.5.1}Asana}{5}{subsection.1.5.1}% 
+\contentsline {subsection}{\numberline {1.5.2}Jira}{5}{subsection.1.5.2}% 
+\contentsline {section}{\numberline {1.6} Probl\'{e}matique }{6}{section.1.6}% 
+\contentsline {section}{\numberline {1.7} Solution propos\'{e}e }{7}{section.1.7}% 
+\contentsline {section}{\numberline {1.8} Etude m\'{e}thodologique }{8}{section.1.8}% 
+\contentsline {subsection}{\numberline {1.8.1}Choix de la m\'{e}thodologie}{8}{subsection.1.8.1}% 
+\contentsline {subsection}{\numberline {1.8.2}Pr\'{e}sentation de la m\'{e}thodologie SCRUM}{8}{subsection.1.8.2}% 
+\contentsline {subsection}{\numberline {1.8.3}Planning du projet}{9}{subsection.1.8.3}% 
+\contentsline {subsection}{\numberline {1.8.4}Diagramme de Gantt}{11}{subsection.1.8.4}% 
+\contentsline {chapter}{\numberline {2} Analyse et Sp\'{e}cifications besoins }{12}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Introduction}{12}{section.2.1}% 
+\contentsline {section}{\numberline {2.2} Les acteurs du syst\`{e}me }{12}{section.2.2}% 
+\contentsline {section}{\numberline {2.3} Sp\'{e}cifications besoins}{13}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Besoins fonctionnels}{13}{subsection.2.3.1}% 
+\contentsline {subsubsection}{G\'{e}rer les projets}{13}{section*.5}% 
+\contentsline {subsubsection}{G\'{e}rer les t\^{a}che}{13}{section*.6}% 
+\contentsline {subsubsection}{G\'{e}rer les membres}{13}{section*.7}% 
+\contentsline {subsubsection}{G\'{e}rer les clients}{14}{section*.8}% 
+\contentsline {subsubsection}{ Suivre le d\'{e}roulement des projets}{14}{section*.9}% 
+\contentsline {subsection}{\numberline {2.3.2}Besoins non fonctionnels}{14}{subsection.2.3.2}% 
+\contentsline {subsubsection}{La performance d'ex\'{e}cution}{14}{section*.10}% 
+\contentsline {subsubsection}{La s\'{e}curit\'{e}}{14}{section*.11}% 
+\contentsline {subsubsection}{L'ergonomie }{15}{section*.12}% 
+\contentsline {section}{\numberline {2.4} Diagramme de cas d'utilisation g\'{e}n\'{e}rale }{15}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Backlog de planning}{17}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Les fonctionnalit\'{e}s du Backlog}{17}{subsection.2.5.1}% 
+\contentsline {subsection}{\numberline {2.5.2} Planification des sprints}{18}{subsection.2.5.2}% 
+\contentsline {subsection}{\numberline {2.5.3}Conclusion}{18}{subsection.2.5.3}% 
+\contentsline {chapter}{\numberline {3}Release 1 :L'application web}{19}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Introduction}{19}{section.3.1}% 
+\contentsline {section}{\numberline {3.2} Sprint 1 }{20}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Analyse}{20}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Conception}{20}{subsection.3.2.2}% 
+\contentsline {subsubsection}{Le sc\'{e}nario \guillemotleft {} Cr\'{e}ation d'un membre \guillemotright {}}{20}{section*.13}% 
+\contentsline {subsection}{\numberline {3.2.3}Sch\'{e}ma}{21}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.4}Test}{21}{subsection.3.2.4}% 
+\contentsline {section}{\numberline {3.3} Sprint 2 }{24}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Analyse}{24}{subsection.3.3.1}% 
+\contentsline {subsubsection}{ Diagramme de cas d'utilisation "G\'{e}rer un client"}{24}{section*.14}% 
+\contentsline {subsection}{\numberline {3.3.2}Conception}{25}{subsection.3.3.2}% 
+\contentsline {subsubsection}{Le sc\'{e}nario \guillemotleft {} Cr\'{e}ation d'un client\guillemotright {}}{25}{section*.15}% 
+\contentsline {subsubsection}{Le sc\'{e}nario \guillemotleft {} Consultation de la carte g\'{e}ographique des clients\guillemotright {}}{25}{section*.16}% 
+\contentsline {subsection}{\numberline {3.3.3}Sch\'{e}ma}{26}{subsection.3.3.3}% 
+\contentsline {subsection}{\numberline {3.3.4}Test}{26}{subsection.3.3.4}% 
+\contentsline {subsection}{\numberline {3.3.5}Consultation carte g\'{e}ographique des clients}{28}{subsection.3.3.5}% 
+\contentsline {section}{\numberline {3.4} Sprint 3 }{29}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Analyse}{29}{subsection.3.4.1}% 
+\contentsline {subsubsection}{ Diagramme de cas d'utilisation "G\'{e}rer un projet"}{29}{section*.17}% 
+\contentsline {subsubsection}{ Diagramme de cas d'utilisation "G\'{e}rer une t\^{a}che"}{30}{section*.18}% 
+\contentsline {subsection}{\numberline {3.4.2}Conception}{30}{subsection.3.4.2}% 
+\contentsline {subsubsection}{ Le sc\'{e}nario \guillemotleft {} Cr\'{e}ation d'un projet \guillemotright {}}{30}{section*.19}% 
+\contentsline {subsubsection}{Le sc\'{e}nario \guillemotleft {} Cr\'{e}ation d'une t\^{a}che\guillemotright {}}{32}{section*.20}% 
+\contentsline {subsection}{\numberline {3.4.3} Sch\'{e}mas }{33}{subsection.3.4.3}% 
+\contentsline {subsection}{\numberline {3.4.4}Test}{33}{subsection.3.4.4}% 
+\contentsline {section}{\numberline {3.5} Sprint 4 }{37}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}Conception}{37}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}Test}{37}{subsection.3.5.2}% 
+\contentsline {section}{\numberline {3.6}Structure de l'application}{38}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}Conception de la base de donn\'{e}es}{40}{section.3.7}% 
+\contentsline {subsection}{\numberline {3.7.1}Mod\`{e}le du liason des donn\'{e}es }{40}{subsection.3.7.1}% 
+\contentsline {subsection}{\numberline {3.7.2}Diagramme de classes}{41}{subsection.3.7.2}% 
+\contentsline {subsubsection}{Tableau explicatif}{42}{section*.21}% 
+\contentsline {section}{\numberline {3.8}Diagramme de d\'{e}ploiement }{43}{section.3.8}% 
+\contentsline {subsection}{\numberline {3.8.1}Diagramme de d\'{e}ploiement}{43}{subsection.3.8.1}% 
+\contentsline {section}{\numberline {3.9}Diagramme d'activit\'{e}}{45}{section.3.9}% 
+\contentsline {section}{\numberline {3.10}Conclusion}{47}{section.3.10}% 
+\contentsline {chapter}{\numberline {4}Release 2 :La solution BI }{48}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Introduction}{48}{section.4.1}% 
+\contentsline {section}{\numberline {4.2} Analyse et conception}{49}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Analyse}{49}{subsection.4.2.1}% 
+\contentsline {subsubsection}{ Diagramme de cas d'utilisation "Consultation des rapports"}{49}{section*.22}% 
+\contentsline {subsection}{\numberline {4.2.2}Conception}{49}{subsection.4.2.2}% 
+\contentsline {subsubsection}{Le sc\'{e}nario \guillemotleft {} Consultation des rapports\guillemotright {}}{49}{section*.23}% 
+\contentsline {section}{\numberline {4.3} Objectifs de l'\'{e}tude d\'{e}cisionnelle }{50}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Axes d'\'{e}tude}{50}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2} Partie ETL }{51}{subsection.4.3.2}% 
+\contentsline {subsubsection}{Description du Processus ETL }{51}{section*.24}% 
+\contentsline {subsubsection}{D\'{e}finition de data warehouse}{52}{section*.25}% 
+\contentsline {subsubsection}{Diff\'{e}rents mod\`{e}les de la mod\'{e}lisation dimensionnelle}{52}{section*.26}% 
+\contentsline {subsubsection}{Chargement de l'entrep\IeC {\^o}t de donn\'{e}es}{53}{section*.27}% 
+\contentsline {subsubsection}{Int\'{e}gration}{54}{section*.28}% 
+\contentsline {subsubsection}{Sh\'{e}mas obtenus}{56}{section*.29}% 
+\contentsline {section}{\numberline {4.4}Test}{57}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1} La consultation des rapports et l'analyse des donn\'{e}es }{57}{subsection.4.4.1}% 
+\contentsline {subsubsection}{Reporting avec l'outil Power BI }{57}{section*.30}% 
+\contentsline {paragraph}{Pr\'{e}paration}{57}{section*.31}% 
+\contentsline {paragraph}{R\'{e}sultats }{59}{section*.32}% 
+\contentsline {subsubsection}{Reporting sur l'application web}{62}{section*.33}% 
+\contentsline {section}{\numberline {4.5}Conclusion}{64}{section.4.5}% 
+\contentsline {chapter}{\numberline {5} Cl\^{o}ture du projet }{65}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Introduction}{65}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Impl\'{e}mentation et structure}{65}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Application en ligne}{66}{section.5.3}% 
+\contentsline {section}{\numberline {5.4} Architecture 3 tiers}{67}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Environnement de d\'{e}veloppement}{67}{section.5.5}% 
+\contentsline {subsection}{\numberline {5.5.1}Environnement mat\'{e}riel }{67}{subsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.5.2}Environnement logiciel}{67}{subsection.5.5.2}% 
+\contentsline {section}{\numberline {5.6}Outils et technologies }{69}{section.5.6}% 
+\contentsline {section}{\numberline {5.7}Conclusion}{73}{section.5.7}% 
+\contentsline {chapter}{Conclusion et Perspectives}{74}{chapter*.34}% 
+\contentsline {chapter}{Abbr\'{e}viations }{76}{chapter*.35}% 
+\contentsline {chapter}{Webographie }{77}{chapter*.36}% 
