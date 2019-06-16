@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.22)  16 JUN 2019 20:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.22)  16 JUN 2019 20:44
 entering extended mode
 **./rapport.tex
 (rapport.tex
@@ -1309,9 +1309,9 @@ l.59
 <./figures/ucG.png, id=1012, 831.105pt x 1603.9925pt>
 File: ./figures/ucG.png Graphic file (type png)
 <use ./figures/ucG.png>
-Package pdftex.def Info: ./figures/ucG.png  used on input line 19.
+Package pdftex.def Info: ./figures/ucG.png  used on input line 15.
 (pdftex.def)             Requested size: 369.88495pt x 455.23357pt.
- [15]) (blp.tex [16 <./figures/ucG.png>]
+) [15] (blp.tex [16 <./figures/ucG.png>]
 Overfull \hbox (93.86731pt too wide) in paragraph at lines 9--33
  [][] 
  []
@@ -1799,13 +1799,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--27
 
 [65
 
-] [66]
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+[66]
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
@@ -1813,177 +1813,165 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 File: ./figures/teklogos/phpmyadmin.png Graphic file (type png)
 <use ./figures/teklogos/phpmyadmin.png>
 Package pdftex.def Info: ./figures/teklogos/phpmyadmin.png  used on input line 
-111.
+110.
 (pdftex.def)             Requested size: 113.80226pt x 85.35683pt.
-[67]
-<./figures/teklogos/wamp.png, id=1367, 220.825pt x 219.82124pt>
+<./figures/teklogos/wamp.png, id=1362, 220.825pt x 219.82124pt>
 File: ./figures/teklogos/wamp.png Graphic file (type png)
 <use ./figures/teklogos/wamp.png>
-Package pdftex.def Info: ./figures/teklogos/wamp.png  used on input line 119.
+Package pdftex.def Info: ./figures/teklogos/wamp.png  used on input line 118.
 (pdftex.def)             Requested size: 113.81206pt x 85.35762pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--128
 
  []
 
-<./figures/teklogos/vscode.png, id=1368, 325.215pt x 160.6pt>
+<./figures/teklogos/vscode.png, id=1363, 325.215pt x 160.6pt>
 File: ./figures/teklogos/vscode.png Graphic file (type png)
 <use ./figures/teklogos/vscode.png>
-Package pdftex.def Info: ./figures/teklogos/vscode.png  used on input line 134.
+Package pdftex.def Info: ./figures/teklogos/vscode.png  used on input line 133.
 
 (pdftex.def)             Requested size: 113.81206pt x 85.36018pt.
-<./figures/teklogos/staruml.png, id=1369, 200.75pt x 200.75pt>
+[67 <./figures/teklogos/phpmyadmin.png (PNG copy)> <./figures/teklogos/wamp.png
+>]
+<./figures/teklogos/staruml.png, id=1370, 200.75pt x 200.75pt>
 File: ./figures/teklogos/staruml.png Graphic file (type png)
 <use ./figures/teklogos/staruml.png>
-Package pdftex.def Info: ./figures/teklogos/staruml.png  used on input line 148
+Package pdftex.def Info: ./figures/teklogos/staruml.png  used on input line 147
 .
 (pdftex.def)             Requested size: 113.81297pt x 85.35896pt.
-[68 <./figures/teklogos/phpmyadmin.png (PNG copy)> <./figures/teklogos/wamp.png
-> <./figures/teklogos/vscode.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
 
-<./figures/teklogos/node.png, id=1376, 963.6pt x 481.8pt>
+<./figures/teklogos/node.png, id=1371, 963.6pt x 481.8pt>
 File: ./figures/teklogos/node.png Graphic file (type png)
 <use ./figures/teklogos/node.png>
-Package pdftex.def Info: ./figures/teklogos/node.png  used on input line 164.
+Package pdftex.def Info: ./figures/teklogos/node.png  used on input line 163.
 (pdftex.def)             Requested size: 113.80379pt x 85.35284pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--178
+[68 <./figures/teklogos/vscode.png> <./figures/teklogos/staruml.png> <./figures
+/teklogos/node.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 172--177
 
  []
 
-<./figures/teklogos/express.png, id=1377, 1284.8pt x 712.6625pt>
+<./figures/teklogos/express.png, id=1379, 1284.8pt x 712.6625pt>
 File: ./figures/teklogos/express.png Graphic file (type png)
 <use ./figures/teklogos/express.png>
-Package pdftex.def Info: ./figures/teklogos/express.png  used on input line 183
+Package pdftex.def Info: ./figures/teklogos/express.png  used on input line 182
 .
 (pdftex.def)             Requested size: 113.80379pt x 85.35269pt.
-[69 <./figures/teklogos/staruml.png> <./figures/teklogos/node.png>]
-<./figures/teklogos/postman.png, id=1384, 318.18875pt x 286.06876pt>
+<./figures/teklogos/postman.png, id=1380, 318.18875pt x 286.06876pt>
 File: ./figures/teklogos/postman.png Graphic file (type png)
 <use ./figures/teklogos/postman.png>
-Package pdftex.def Info: ./figures/teklogos/postman.png  used on input line 201
+Package pdftex.def Info: ./figures/teklogos/postman.png  used on input line 200
 .
 (pdftex.def)             Requested size: 113.80986pt x 85.35858pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
 
-<./figures/teklogos/vue.png, id=1385, 401.5pt x 401.5pt>
+<./figures/teklogos/vue.png, id=1381, 401.5pt x 401.5pt>
 File: ./figures/teklogos/vue.png Graphic file (type png)
 <use ./figures/teklogos/vue.png>
-Package pdftex.def Info: ./figures/teklogos/vue.png  used on input line 213.
+Package pdftex.def Info: ./figures/teklogos/vue.png  used on input line 212.
 (pdftex.def)             Requested size: 113.80992pt x 85.35896pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 221--224
+[69 <./figures/teklogos/express.png> <./figures/teklogos/postman.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 220--223
 
  []
 
-[70 <./figures/teklogos/express.png> <./figures/teklogos/postman.png> <./figure
-s/teklogos/vue.png>]
-<./figures/teklogos/mysql.png, id=1392, 1284.8pt x 664.4825pt>
+<./figures/teklogos/mysql.png, id=1387, 1284.8pt x 664.4825pt>
 File: ./figures/teklogos/mysql.png Graphic file (type png)
 <use ./figures/teklogos/mysql.png>
-Package pdftex.def Info: ./figures/teklogos/mysql.png  used on input line 227.
+Package pdftex.def Info: ./figures/teklogos/mysql.png  used on input line 226.
 (pdftex.def)             Requested size: 113.80379pt x 85.35155pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--237
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
 
  []
 
-<./figures/teklogos/ejs.png, id=1393, 1156.32pt x 650.43pt>
+<./figures/teklogos/ejs.png, id=1388, 1156.32pt x 650.43pt>
 File: ./figures/teklogos/ejs.png Graphic file (type png)
 <use ./figures/teklogos/ejs.png>
-Package pdftex.def Info: ./figures/teklogos/ejs.png  used on input line 240.
+Package pdftex.def Info: ./figures/teklogos/ejs.png  used on input line 239.
 (pdftex.def)             Requested size: 113.80379pt x 85.35284pt.
-<./figures/teklogos/talend.png, id=1394, 1284.8pt x 319.1925pt>
+<./figures/teklogos/talend.png, id=1389, 1284.8pt x 319.1925pt>
 File: ./figures/teklogos/talend.png Graphic file (type png)
 <use ./figures/teklogos/talend.png>
-Package pdftex.def Info: ./figures/teklogos/talend.png  used on input line 253.
+Package pdftex.def Info: ./figures/teklogos/talend.png  used on input line 252.
 
 (pdftex.def)             Requested size: 113.80379pt x 85.35513pt.
-[71 <./figures/teklogos/mysql.png> <./figures/teklogos/ejs.png> <./figures/tekl
-ogos/talend.png>]
-<./figures/teklogos/highcharts.png, id=1402, 495.8525pt x 124.465pt>
+[70 <./figures/teklogos/vue.png> <./figures/teklogos/mysql.png> <./figures/tekl
+ogos/ejs.png>]
+<./figures/teklogos/highcharts.png, id=1397, 495.8525pt x 124.465pt>
 File: ./figures/teklogos/highcharts.png Graphic file (type png)
 <use ./figures/teklogos/highcharts.png>
 Package pdftex.def Info: ./figures/teklogos/highcharts.png  used on input line 
-266.
+265.
 (pdftex.def)             Requested size: 113.80913pt x 85.36057pt.
-) (conclusion.tex [72 <./figures/teklogos/highcharts.png>]
-[73
+) (conclusion.tex [71 <./figures/teklogos/talend.png> <./figures/teklogos/highc
+harts.png>] [72
 
-] [74]
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--39
+] [73]
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--43
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--47
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--51
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--64
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
 
  []
 
-[75
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--67
+
+ []
+
+[74
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 70.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 73.
 
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (49.28899pt too wide) in paragraph at lines 77--78
+Overfull \hbox (49.28899pt too wide) in paragraph at lines 80--81
 []\OT1/lmr/m/n/12 [8] [][]$\OT1/lmtt/m/n/12 https :// getbootstrap [] .com / do
 cs / 4 [] .3 / getting [] -started / introduction /$[][] 
  []
 
-) (ra.tex [76
+) (ra.tex [75
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 4--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
-
- []
-
-)
+])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
- [77]
+ [76]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
  (rapport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
@@ -1992,8 +1980,8 @@ Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 043036D149B3D46D9CE779826B5915AA;5817.
  ) 
 Here is how much of TeX's memory you used:
- 21197 strings out of 492895
- 362423 string characters out of 3133461
+ 21196 strings out of 492895
+ 362416 string characters out of 3133461
  523439 words of memory out of 3000000
  24465 multiletter control sequences out of 15000+200000
  572942 words of font info for 63 fonts, out of 3000000 for 9000
@@ -2007,9 +1995,9 @@ es/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on rapport.pdf (89 pages, 6883725 bytes).
+Output written on rapport.pdf (88 pages, 6883276 bytes).
 PDF statistics:
- 1530 PDF objects out of 1728 (max. 8388607)
- 264 named destinations out of 1000 (max. 500000)
+ 1526 PDF objects out of 1728 (max. 8388607)
+ 263 named destinations out of 1000 (max. 500000)
  1113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
