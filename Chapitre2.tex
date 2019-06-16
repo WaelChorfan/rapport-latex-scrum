@@ -30,6 +30,35 @@ termin\'{e}e ou non.
 }
 \end{itemize}
 
+Ce tableur pr\'{e}sente les roles selon les acteurs:
+
+\FloatBarrier
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+                                            & Administrateur & Membre  \\
+\hline
+Authentification~                           & X              & X       \\
+\hline
+Création d’un projet                        & X              &         \\
+\hline
+Ajout d’une tache                           & X              & X       \\
+\hline
+Modifier l’état d’une tâche                 & X              &         \\
+\hline
+Ajout d’un client/membre                    & X              &         \\
+\hline
+Consultation des rapports                   & X              &         \\
+\hline
+Consulter la carte géographique des clients & X              & X       \\
+\hline
+\end{tabular}
+\centering
+\caption{Rôles  des acteurs.}
+\end{table}
+\FloatBarrier
+
 
 \section{ Sp\'{e}cifications besoins}
 
@@ -114,39 +143,10 @@ apte \`{a} aider l'utilisateur \`{a} mieux g\'{e}rer son espace de travail.
 \section{ Diagramme de cas d'utilisation g\'{e}n\'{e}rale }
 \input{ucG.tex}
 
-\section{ Diagramme de s\'{e}quences }
 
-Le diagramme de s\'{e}quence indique l'interaction entre plusieurs acteurs
-afin d'expliquer le d\'{e}roulement des diff\'{e}rents sc\'{e}nario entre les diff\'{e}rents
-\'{e}l\'{e}ments du projet. Les sch\'{e}mas suivants repr\'{e}sentent dans chaque cas les
-diagrammes de s\'{e}quences.
-Nous  d\'{e}crivons les sc\'{e}narios les plus importants de notre application qui sont
-comme indique dans ce tableau :
 
-\FloatBarrier
-\begin{table}[H]
-\centering
-\begin{tabular}{|l|l|l|}
-\hline
-                                            & Administrateur & Membre  \\
-\hline
-Authentification~                           & X              & X       \\
-\hline
-Création d’un projet                        & X              &         \\
-\hline
-Ajout d’une tache                           & X              & X       \\
-\hline
-Modifier l’état d’une tâche                 & X              &         \\
-\hline
-Ajout d’un client/membre                    & X              &         \\
-\hline
-Consultation des rapports                   & X              &         \\
-\hline
-Consulter la carte géographique des clients & X              & X       \\
-\hline
-\end{tabular}
-\end{table}
-\FloatBarrier
+
+
 
 
 \section{Backlog de planning}

@@ -219,7 +219,7 @@ nous passont directement \`{a} construite notre table de faits
 \subsection{Int\'{e}gration}
 
 
-Pour obtenir les co\^{u}ts nous avons calcul\'{e} le prix par chaque projet 
+Pour obtenir les co\^{u}ts nous avons calcul\'{e} le prix par chaque projet
 ,cat\'{e}gorie ,et nom du client.
 
 \begin{figure}[H]
@@ -258,8 +258,8 @@ nous avons calcul\'{e} pour chaque projet la diff\'{e}rence en jours .
 
 \subsection{Sh\'{e}mas obtenus}
 A partir du du sh\'{e}ma de la fig \`{a} on a obtenue la table fact selon ce sh√©ma
-\FloatBarrier
 
+\FloatBarrier
 \begin{figure}[H]
 \center
 \includegraphics[width=14cm,height=9cm]{./figures/s1.png}
@@ -271,7 +271,7 @@ A partir du du sh\'{e}ma de la fig \`{a} on a obtenue la table fact selon ce sh√
 \FloatBarrier
 
 \begin{table}
-\centering
+
 \begin{tabular}{|l|l|l|l|l|l|l|}
 \hline
 Field        & Type         & Null & Key & Default & Extra &   \\
@@ -287,13 +287,16 @@ customername & varchar(45)  & YES  &     & NULL    &       &   \\
 category     & varchar(60)  & YES  &     & NULL    &       &   \\
 \hline
 \end{tabular}
+\centering
+\caption{Sh\'{e}ma de la table des faits.}
 \end{table}
 \FloatBarrier
 
 
 les donn\'{e}es obtenues sont comme suit :
+\FloatBarrier
 \begin{table}
-\centering
+
 \begin{tabular}{|l|l|l|l|l|}
 \hline
 price & projectname                   & duration & customername            & category  \\
@@ -307,6 +310,8 @@ price & projectname                   & duration & customername            & cat
 43    & Create geolocalisation system & 27       & Lobortis Quis Pede LLP  & Hardware  \\
 \hline
 \end{tabular}
+\centering
+\caption{Contenu de la table des faits.}
 \end{table}
 \FloatBarrier
 
