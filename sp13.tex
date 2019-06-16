@@ -6,7 +6,7 @@ ses sous cas d'utilisation \`{a} savoir : \newline
 \textbullet{} Gestion des projets \newline
 \subsection{Analyse}
 
-\subsection{ Diagramme de cas d'utilisation "G\'{e}rer un projet"}
+\subsubsection{ Diagramme de cas d'utilisation "G\'{e}rer un projet"}
 
 \begin{figure}[H]
 \center
@@ -26,7 +26,7 @@ ses sous cas d'utilisation \`{a} savoir : \newline
 
 
 \subsection{Conception}
-\subsection{  Le sc\'{e}nario \guillemotleft{} Cr\'{e}ation d'un projet \guillemotright{}}
+\subsubsection{  Le sc\'{e}nario \guillemotleft{} Cr\'{e}ation d'un projet \guillemotright{}}
 
 Le diagramme de s\'{e}quence \guillemotleft{} Ajout d'un projet \guillemotright{} pr\'{e}sente un s\'{e}quencement
 des interactions entre Administrateur, Application et Base de donn\'{e}es (BD) .
@@ -39,7 +39,7 @@ des interactions entre Administrateur, Application et Base de donn\'{e}es (BD) .
 \end{figure}
 
 \newpage
-\subsection{Le sc\'{e}nario \guillemotleft{} Cr\'{e}ation d'une t\^{a}che\guillemotright{}}
+\subsubsection{Le sc\'{e}nario \guillemotleft{} Cr\'{e}ation d'une t\^{a}che\guillemotright{}}
 Le diagramme de s\'{e}quence \guillemotleft{} Ajout d'une t\^{a}che \guillemotright{} pr\'{e}sente le s\'{e}quencement
 des interactions entre Administrateur, Application et Base de donn\'{e}es (BD).
 
@@ -53,8 +53,8 @@ des interactions entre Administrateur, Application et Base de donn\'{e}es (BD).
 
 \newpage
 
-\subsection{Sch\'{e}mas}
-\FloatBarrier
+\subsection{ Sch\'{e}mas }
+Le Sch\'{e}ma de la table "Projects" est pr\'{e}sent\'{e} par la Table 3.3 
 
 \begin{table}
 
@@ -80,47 +80,54 @@ customers\_id & int(11)       & YES  & MUL & NULL    &                  \\
 \centering
  \caption {Projects.}
 \end{table}
-\FloatBarrier
+
 
 \subsection{Test}
-C'est l'interface principale de notre application
-\FloatBarrier
+C'est l'interface principale de notre application.( Figure 3.14)
+
 \begin{figure}[H]
 \center
 \includegraphics[width=11cm,height=7cm]{./figures/pres/gp1.png}
 \caption{Gestion de projet.1.}
 \end{figure}
-\FloatBarrier
 
-Nous ajoutons un nouveau projet et l'assignons un ou plusieurs membres.
-\FloatBarrier
+
+Nous ajoutons un nouveau projet et l'assignons un ou plusieurs membres. (Figure 3.15)
+
 \begin{figure}[H]
 \center
 \includegraphics[width=11cm,height=7cm]{./figures/pres/gp2.png}
 \caption{Gestion de projet.2.}
 \end{figure}
-\FloatBarrier
 
-\FloatBarrier
+
+
 \begin{figure}[H]
 \center
 \includegraphics[width=11cm,height=7cm]{./figures/pres/gp3.png}
 \caption{Gestion de projet.3.}
 \end{figure}
-\FloatBarrier
+
 
 Pour chaque projet en cliquant sur le buttons Details ,on peut modifier ses
 d\'{e}tails ,on peut s\'{e}l\'{e}ectionner plusieurs membres et les ajouter .
 On ne peut pas modifier les dates de d\'{e}but et de fin puisque les dates des
-taches devraient etre p\'{e}nibles \`{a} changer tache par tache .
+taches devraient etre p\'{e}nibles \`{a} changer t\^{a}che par t\^{a}che .(Figure 3.16)
 
 \bigskip
 \bigskip
 
 En cliquant sur le button \guillemotleft{} Tasks \guillemotright{} d'un certain projet , l'administrateur est
 amen\'{e}e \`{a} l'interface de gestion des taches correspondantes dans laquelle il
-peux suivre la progression des taches ,consulter le diagramme de gannt
-dynamique et modifier les param\'{e}tres des taches .
+peux
+\begin{itemize}
+  \item { Suivre la progression des t\^{a}ches.(Figure 3.17)  }
+  \item{peux consulter le diagramme de gannt dynamique. (Figure 3.18)}
+  \item {  et modifier les param\'{e}tres des t\^{a}ches.(Figure 3.19) }
+\end{itemize}
+
+
+
 
 \FloatBarrier
 \begin{figure}[H]
