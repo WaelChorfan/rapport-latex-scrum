@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.22)  16 JUN 2019 19:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.22)  16 JUN 2019 19:39
 entering extended mode
 **./rapport.tex
 (rapport.tex
@@ -1695,20 +1695,20 @@ Package pdftex.def Info: ./figures/integ2.png  used on input line 159.
 <./figures/s1.png, id=1259, 633.36626pt x 558.085pt>
 File: ./figures/s1.png Graphic file (type png)
 <use ./figures/s1.png>
-Package pdftex.def Info: ./figures/s1.png  used on input line 173.
+Package pdftex.def Info: ./figures/s1.png  used on input line 174.
 (pdftex.def)             Requested size: 398.34634pt x 256.08354pt.
 
-Overfull \hbox (8.34634pt too wide) in paragraph at lines 173--174
+Overfull \hbox (8.34634pt too wide) in paragraph at lines 174--175
  [] 
  []
 
 
-Overfull \hbox (65.40363pt too wide) in paragraph at lines 205--219
+Overfull \hbox (65.40363pt too wide) in paragraph at lines 207--221
  [][] 
  []
 
 [55 <./figures/s1.png>]
-Overfull \hbox (20.83481pt too wide) in paragraph at lines 239--243
+Overfull \hbox (20.83481pt too wide) in paragraph at lines 238--242
  []\OT1/lmr/bx/n/12 Preparation[] \OT1/lmr/m/n/12 Nous avons be-soin d'ajus-te
 r quelques champs pour ^etre adequates
  []
@@ -1716,20 +1716,20 @@ r quelques champs pour ^etre adequates
 <./figures/pb1.png, id=1266, 960.58875pt x 260.47313pt>
 File: ./figures/pb1.png Graphic file (type png)
 <use ./figures/pb1.png>
-Package pdftex.def Info: ./figures/pb1.png  used on input line 250.
+Package pdftex.def Info: ./figures/pb1.png  used on input line 249.
 (pdftex.def)             Requested size: 398.34375pt x 142.26306pt.
 
-Overfull \hbox (8.34375pt too wide) in paragraph at lines 250--251
+Overfull \hbox (8.34375pt too wide) in paragraph at lines 249--250
  [] 
  []
 
 <./figures/pb2.png, id=1267, 965.10562pt x 165.61874pt>
 File: ./figures/pb2.png Graphic file (type png)
 <use ./figures/pb2.png>
-Package pdftex.def Info: ./figures/pb2.png  used on input line 262.
+Package pdftex.def Info: ./figures/pb2.png  used on input line 261.
 (pdftex.def)             Requested size: 398.33188pt x 85.3565pt.
 
-Overfull \hbox (8.33188pt too wide) in paragraph at lines 262--263
+Overfull \hbox (8.33188pt too wide) in paragraph at lines 261--262
  [] 
  []
 
@@ -1737,53 +1737,53 @@ Overfull \hbox (8.33188pt too wide) in paragraph at lines 262--263
 <./figures/rpb1.png, id=1280, 638.385pt x 424.58624pt>
 File: ./figures/rpb1.png Graphic file (type png)
 <use ./figures/rpb1.png>
-Package pdftex.def Info: ./figures/rpb1.png  used on input line 284.
+Package pdftex.def Info: ./figures/rpb1.png  used on input line 283.
 (pdftex.def)             Requested size: 227.61696pt x 142.2648pt.
 <./figures/rpb2.png, id=1281, 519.44063pt x 396.7322pt>
 File: ./figures/rpb2.png Graphic file (type png)
 <use ./figures/rpb2.png>
-Package pdftex.def Info: ./figures/rpb2.png  used on input line 291.
+Package pdftex.def Info: ./figures/rpb2.png  used on input line 290.
 (pdftex.def)             Requested size: 227.61931pt x 142.26654pt.
 <./figures/rpb3.png, id=1282, 548.80031pt x 380.17032pt>
 File: ./figures/rpb3.png Graphic file (type png)
 <use ./figures/rpb3.png>
-Package pdftex.def Info: ./figures/rpb3.png  used on input line 298.
+Package pdftex.def Info: ./figures/rpb3.png  used on input line 297.
 (pdftex.def)             Requested size: 227.62227pt x 142.26767pt.
  [58 <./figures/rpb1.png> <./figures/rpb2.png>]
 <./figures/rpb31.png, id=1290, 360.59718pt x 158.09062pt>
 File: ./figures/rpb31.png Graphic file (type png)
 <use ./figures/rpb31.png>
-Package pdftex.def Info: ./figures/rpb31.png  used on input line 305.
+Package pdftex.def Info: ./figures/rpb31.png  used on input line 304.
 (pdftex.def)             Requested size: 227.62311pt x 142.273pt.
  [59 <./figures/rpb3.png> <./figures/rpb31.png>]
 <./figures/rpb4.png, id=1297, 585.68813pt x 402.00188pt>
 File: ./figures/rpb4.png Graphic file (type png)
 <use ./figures/rpb4.png>
-Package pdftex.def Info: ./figures/rpb4.png  used on input line 319.
+Package pdftex.def Info: ./figures/rpb4.png  used on input line 318.
 (pdftex.def)             Requested size: 227.62207pt x 142.2608pt.
 <./figures/rpb42.png, id=1298, 413.29407pt x 182.93344pt>
 File: ./figures/rpb42.png Graphic file (type png)
 <use ./figures/rpb42.png>
-Package pdftex.def Info: ./figures/rpb42.png  used on input line 326.
+Package pdftex.def Info: ./figures/rpb42.png  used on input line 325.
 (pdftex.def)             Requested size: 227.62775pt x 142.27159pt.
 <./figures/pres/cost-per-project.png, id=1299, 1204.5pt x 803.0pt>
 File: ./figures/pres/cost-per-project.png Graphic file (type png)
 <use ./figures/pres/cost-per-project.png>
 Package pdftex.def Info: ./figures/pres/cost-per-project.png  used on input lin
-e 341.
+e 340.
 (pdftex.def)             Requested size: 312.97882pt x 199.1689pt.
  [60 <./figures/rpb4.png> <./figures/rpb42.png>]
 <./figures/pres/cost-per-customer.png, id=1306, 1204.5pt x 803.0pt>
 File: ./figures/pres/cost-per-customer.png Graphic file (type png)
 <use ./figures/pres/cost-per-customer.png>
 Package pdftex.def Info: ./figures/pres/cost-per-customer.png  used on input li
-ne 349.
+ne 348.
 (pdftex.def)             Requested size: 312.97882pt x 199.1689pt.
 <./figures/pres/cost-per-category.png, id=1307, 1204.5pt x 803.0pt>
 File: ./figures/pres/cost-per-category.png Graphic file (type png)
 <use ./figures/pres/cost-per-category.png>
 Package pdftex.def Info: ./figures/pres/cost-per-category.png  used on input li
-ne 355.
+ne 354.
 (pdftex.def)             Requested size: 312.97882pt x 199.1689pt.
  [61 <./figures/pres/cost-per-project.png> <./figures/pres/cost-per-customer.pn
 g>]
@@ -1791,13 +1791,13 @@ g>]
 File: ./figures/pres/duration-per-project.png Graphic file (type png)
 <use ./figures/pres/duration-per-project.png>
 Package pdftex.def Info: ./figures/pres/duration-per-project.png  used on input
- line 363.
+ line 362.
 (pdftex.def)             Requested size: 312.97882pt x 199.1689pt.
 <./figures/pres/durationin-days-per-proj.png, id=1317, 1204.5pt x 803.0pt>
 File: ./figures/pres/durationin-days-per-proj.png Graphic file (type png)
 <use ./figures/pres/durationin-days-per-proj.png>
 Package pdftex.def Info: ./figures/pres/durationin-days-per-proj.png  used on i
-nput line 371.
+nput line 370.
 (pdftex.def)             Requested size: 312.97882pt x 199.1689pt.
  [62 <./figures/pres/cost-per-category.png> <./figures/pres/duration-per-projec
 t.png>]) (Chapitre5.tex [63 <./figures/pres/durationin-days-per-proj.png>]
@@ -2046,7 +2046,7 @@ ts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on rapport.pdf (88 pages, 6847136 bytes).
+Output written on rapport.pdf (88 pages, 6847162 bytes).
 PDF statistics:
  1506 PDF objects out of 1728 (max. 8388607)
  259 named destinations out of 1000 (max. 500000)
