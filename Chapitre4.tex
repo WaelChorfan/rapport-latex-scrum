@@ -1,4 +1,4 @@
-\chapter{Release 2}
+\chapter{Release 2 :La solution BI }
 
 
 \section{Introduction}
@@ -17,7 +17,7 @@ et nous finissons par la pr\'{e}sentation des rapports obtenues.
 
 \begin{figure}[H]
 \center
-\includegraphics[width=13cm,height=8cm]{./figures/ucS.png}
+\includegraphics[width=12cm,height=5cm]{./figures/ucS.png}
 \caption{G\'{e}rer un projet.}
 
 \end{figure}
@@ -36,187 +36,89 @@ des interactions entre Administrateur, Application et Base de donn\'{e}es (BD).
 \end{figure}
 
 
-\section{ But de l'\'{e}tude d\'{e}cisionnelle }
+\section{ Objectifs de l'tude d\'{e}cisionnelle }
 
+
+\subsection{Axes d'\'{e}tude}
 Notre \'{e}tude d\'{e}cisionnelle portera sur :
 
-\textbullet{} Le co\^{u}t total de chaque projet
-\textbullet{} Le co\^{u}t total des projets pour chaque client
-\textbullet{} Le co\^{u}t total par cat\'{e}gorie des projets
-\textbullet{} La dur\'{e}e totale du chaque projet
-\bigskip
-\section{ Elaboration des rapports sur Power BI }
-\subsubsection{Pr\'{e}paration}
-Nous avons besoin d'ajuster quelques champs pour \^{e}tre ad\'{e}quates \`{a} \^{e}tre
-exploit\'{e}es . Par exemple dans la table membre on trouve " firstname " et
-"lastname" Et on doit les concat\'{e}ner pour dans une hi\'{e}rarchie pour avoir
-des rapports lisibles \`{a} propos des membres .
+\begin{itemize}
+  \item { Le co\^{u}t total de chaque projet}
+  \item { Le co\^{u}t total des projets pour chaque client }
+  \item { Le co\^{u}t total par cat\'{e}gorie des projets }
+  \item { La dur\'{e}e totale du chaque projet }
+
+\end{itemize}
+
+Pour mettre en evidence cette \'{e}tude  , on recourt \`{a} extraire les rapports bas\'{e}es sur
+les Mesures Calcul\'{e}es (Key Performance Indicator),ceux sont des mesures qui permettent aux entreprises d'\'{e}valuer la performance d'un
+domaine.
+Ces mesures int\`{e}grent des tableaux de bord, des outils pour faciliter le suivi et l'aide
+\`{a} la d\'{e}cision. Ainsi chaque personne acc\`{e}de aux donn\'{e}es essentielles de gestion pour
+piloter son activit\'{e}
 
 
 
+\subsection{ Partie ETL }
 
-\FloatBarrier
+\subsubsection{Description du Processus ETL }
+
+L'ETL (Extract, Transform, Load) est un processus d'int\'{e}gration des donn\'{e}es qui permet de transf\'{e}rer des donn\'{e}es brutes d'un syst\`{e}me source, de les pr\'{e}parer pour une utilisation en aval et de les envoyer vers une base de donn\'{e}es, un entrep\^{o}t de donn\'{e}es ou un serveur cible. Dans ce processus la transformation des donn\'{e}es intervient sur un serveur interm\'{e}diaire avant le chargement sur la cible comme indiqué
+\`{a} la (Figure )
 \begin{figure}[H]
 \center
-\includegraphics[width=14cm,height=5cm]{./figures/pb1.png}
-\caption{Ajustement des noms.}
+\includegraphics[width=14cm,height=9cm]{./figures/bi1.png}
+\caption{Processus ETL.}
 \end{figure}
-\FloatBarrier
 
 
-\bigskip
-\bigskip
+\subsubsection{D\'{e}finition de data warehouse}
+\guillemotleft{}Le Data Warehouse est une collection de donn\'{e}es orient\'{e}es sujet,
+int\'{e}gr\'{e}es, non volatiles et \'{e}volutives dans le temps, organis\'{e}es pour le
+support d'un processus la d\'{e}cision.\guillemotright{} BILLINMON
 
-\FloatBarrier
-\begin{figure}[H]
-\center
-\includegraphics[width=14cm,height=3cm]{./figures/pb2.png}
-\caption{Ajustement de la dur\'{e}e totale des projets.}
-\end{figure}
-\FloatBarrier
 
-\newpage
-\subsubsection{Reporting  sur Power BI}
-Pour tester les rapports et la validit\'{e} des donn\'{e}es , nous avons utilis\'{e} l'outil
-Power BI pour nous donner une impression sur les rapports qu'on doit
-int\'{e}grer \`{a} notre application afin de les visulaiser.
-
-\bigskip
-Pour ce fait on a cr\'{e}e les rapports correspontdants \`{a} l'\'{e}tude d\'{e}cisionnelle :
-Les deux axes importants de l'\'{e}tude sont les couts et la dur\'{e}e :
+\subsubsection{Diff\'{e}rents mod\`{e}les de la mod\'{e}lisation dimensionnelle}
+ Mod\`{e}le en \'{e}toile : comme indiqu\'{e} pr\'{e}c\'{e}demment, ce mod\`{e}le se pr\'{e}sente comme
+une \'{e}toile dont le centre n'est autre que la table des faits et les branches sont les tables
+de dimension. La force de ce type de mod\'{e}lisation est sa lisibilit\'{e} et sa performance.
 
 
 
 \begin{itemize}
-
-\item{ \textbf{Les  co\^{u}ts}  }
-
-\FloatBarrier
-\begin{figure}[H]
-\center
-\includegraphics[width=10cm,height=10cm]{./figures/rpb1.png}
-\caption{Co\^{u}t total par projet.}
-
-\end{figure}
-\FloatBarrier
-
-\FloatBarrier
-\begin{figure}[H]
-\center
-\includegraphics[width=10cm,height=10cm]{./figures/rpb2.png}
-\caption{Co\^{u}t total par catégorie de projet.}
-
-\end{figure}
-\FloatBarrier
-
-\FloatBarrier
-\begin{figure}[H]
-\center
-\includegraphics[width=10cm,height=10cm]{./figures/rpb3.png}
-\caption{Co\^{u}t total par client.}
-
-\end{figure}
-\FloatBarrier
-
-\FloatBarrier
-\begin{figure}[H]
-\center
-\includegraphics[width=8cm,height=5cm]{./figures/rpb31.png}
-\caption{Co\^{u}t total par client en chiffres.}
-
-\end{figure}
-\FloatBarrier
-
-
-
-\newpage
-
-\item{ \textbf{La dur\'{e}e}  }
-\FloatBarrier
-\begin{figure}[H]
-\center
-\includegraphics[width=10cm,height=10cm]{./figures/rpb4.png}
-\caption{Dur\'{e}e total par projet (en jours).1}
-
-\end{figure}
-\FloatBarrier
-
-\FloatBarrier
-\begin{figure}[H]
-\center
-\includegraphics[width=8cm,height=5cm]{./figures/rpb42.png}
-\caption{Dur\'{e}e total par projet (en jours).2}
-
-\end{figure}
-\FloatBarrier
-
-
+  \item {Mod\`{e}le en flocon : identique au mod\`{e}le en \'{e}toile, sauf que ses branches sont \'{e}clat\'{e}es en hi\'{e}rarchies. Cette mod\'{e}lisation est g\'{e}n\'{e}ralement justifi\'{e}e par l'\'{e}conomie
+d'espace de stockage, cependant elle peut s'av\'{e}rer moins compr\'{e}hensible pour l'utilisateur
+final, et tr\`{e}s couteuse en terme de performances.}
+  \item {Mod\`{e}le en constellation : Ce n'est rien d'autre que plusieurs mod\`{e}les en \'{e}toile
+li\'{e}s entre eux par des dimensions communes. }
 \end{itemize}
 
 
 
 
+\subsubsection{Chargement de l'entrepôt  de donn\'{e}es}
 
+Dans notre entrep\^{o}t de donn\'{e}es, nous avons utilis\'{e} le mod\`{e}le en \'{e}toile (Figure 4.3 )
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\section{ Partie ETL }
 Pour avoir des rapports sur l'application web ,on doit avoir les donn\'{e}es sous une certaine format ,
-afin de satisfaire le besoin de la consultation du suivi des projets selon le temps et le cout.
+afin de satisfaire le besoin de la consultation du suivi des projets selon le temps et le co\^{u}t.
 Ains les donn\'{e}es correspondantes sont collect\'{e}es, modifi\'{e}es et charg\'{e}es dans un entrep\^{o}t de donn\'{e}es
 assurant ainsi la phase ETL.
 
 Nous avons utilis\'{e} l'outil talend pour charger les donn\'{e}es n\'{e}cessaires .
 Puisque nous avons les donn\'{e}es ordonn\'{e}es et int\'{e}gres ,nous n'avons pas \'{e}t\'{e} besoin d'une ODS (Operational data source)
-nous passont directement \`{a} construite notre table de faits
+nous passont directement \`{a} construite notre table de faits.
+
+
+\begin{figure}[H]
+\center
+\includegraphics[width=14cm,height=9cm]{./figures/etoile.png}
+\caption{ Mod\`{e}le en \'{e}toile .}
+\end{figure}
 
 
 
-\subsection{Int\'{e}gration}
+\subsubsection{Int\'{e}gration}
 
 
 Pour obtenir les co\^{u}ts nous avons calcul\'{e} le prix par chaque projet
@@ -256,45 +158,44 @@ nous avons calcul\'{e} pour chaque projet la diff\'{e}rence en jours .
 
 
 
-\subsection{Sh\'{e}mas obtenus}
+
+
+\subsubsection{Sh\'{e}mas obtenus}
 A partir du du sh\'{e}ma de la fig \`{a} on a obtenue la table fact selon ce shéma
 
-\FloatBarrier
+
 \begin{figure}[H]
 \center
 \includegraphics[width=14cm,height=9cm]{./figures/s1.png}
 \caption{Sh\'{e}ma initial.}
 \end{figure}
-\FloatBarrier
 
-
-\FloatBarrier
 
 \begin{table}
 
 \begin{tabular}{|l|l|l|l|l|l|l|}
 \hline
-Field        & Type         & Null & Key & Default & Extra &   \\
+ \textbf{Field}        & \textbf{Type}         & \textbf{Null} & \textbf{Key}  & \textbf{Default} & \textbf{Extra}   \\
 \hline
-price        & double(22,0) & YES  &     & NULL    &       &   \\
+price        & double(22,0) & YES  &     & NULL    &         \\
 \hline
-projectname  & varchar(45)  & NO   &     & NULL    &       &   \\
+projectname  & varchar(45)  & NO   &     & NULL    &         \\
 \hline
-duration     & bigint(10)   & NO   &     & NULL    &       &   \\
+duration     & bigint(10)   & NO   &     & NULL    &         \\
 \hline
-customername & varchar(45)  & YES  &     & NULL    &       &   \\
+customername & varchar(45)  & YES  &     & NULL    &         \\
 \hline
-category     & varchar(60)  & YES  &     & NULL    &       &   \\
+category     & varchar(60)  & YES  &     & NULL    &         \\
 \hline
 \end{tabular}
 \centering
 \caption{Sh\'{e}ma de la table des faits.}
 \end{table}
-\FloatBarrier
+
 
 
 les donn\'{e}es obtenues sont comme suit :
-\FloatBarrier
+
 \begin{table}
 
 \begin{tabular}{|l|l|l|l|l|}
@@ -313,60 +214,160 @@ price & projectname                   & duration & customername            & cat
 \centering
 \caption{Contenu de la table des faits.}
 \end{table}
-\FloatBarrier
 
 
 
 
-\subsubsection{Test}
+\subsection{Test}
+
 
 Si l'administrateur parvient \`{a} ese connecter il trouve cette interface d'accueil
 ou il trouvera les rapports qui d\'{e}crivent des statistiques primordiales au
 d\'{e}oulement des projets donc les interfaces et les fonctionnalit\'{e}s disponibles
 pour l'admin sont :
 
-\subsection{La consultation des rapports}
+\subsection{ La consultation des rapports et l'analyse des donn\'{e}es  }
+
+\subsubsection{Reporting avec l'outil Power BI }
 
 
-\FloatBarrier
+\paragraph{Pr\'{e}paration}
+Nous avons besoin d'ajuster quelques champs pour \^{e}tre ad\'{e}quates \`{a} \^{e}tre
+exploit\'{e}es . Par exemple dans la table membre on trouve " firstname " et
+"lastname" Et on doit les concat\'{e}ner pour dans une hi\'{e}rarchie pour avoir
+des rapports lisibles \`{a} propos des membres .
+
+
+
+
+
+\begin{figure}[H]
+\center
+\includegraphics[width=14cm,height=5cm]{./figures/pb1.png}
+\caption{Ajustement des noms.}
+\end{figure}
+
+
+
+\bigskip
+\bigskip
+
+
+\begin{figure}[H]
+\center
+\includegraphics[width=14cm,height=3cm]{./figures/pb2.png}
+\caption{Ajustement de la dur\'{e}e totale des projets.}
+\end{figure}
+
+
+Pour tester les rapports et la validit\'{e} des donn\'{e}es , nous avons utilis\'{e} l'outil
+Power BI pour nous donner une impression sur les rapports qu'on doit
+int\'{e}grer \`{a} notre application afin de les visulaiser.
+
+\bigskip
+Pour ce fait on a cr\'{e}e les rapports correspontdants \`{a} l'\'{e}tude d\'{e}cisionnelle :
+Les deux axes importants de l'\'{e}tude sont les couts et la dur\'{e}e :
+
+
+\paragraph{R\'{e}sultats  }
+\begin{itemize}
+
+\item{ \textbf{Les  co\^{u}ts}  }
+
+
+\begin{figure}[H]
+\center
+\includegraphics[width=10cm,height=10cm]{./figures/rpb1.png}
+\caption{Co\^{u}t total par projet.}
+
+\end{figure}
+
+\begin{figure}[H]
+\center
+\includegraphics[width=10cm,height=10cm]{./figures/rpb2.png}
+\caption{Co\^{u}t total par catégorie de projet.}
+
+\end{figure}
+
+\begin{figure}[H]
+\center
+\includegraphics[width=10cm,height=10cm]{./figures/rpb3.png}
+\caption{Co\^{u}t total par client.}
+
+\end{figure}
+
+\begin{figure}[H]
+\center
+\includegraphics[width=8cm,height=5cm]{./figures/rpb31.png}
+\caption{Co\^{u}t total par client en chiffres.}
+
+\end{figure}
+
+
+
+
+\newpage
+
+\item{ \textbf{La dur\'{e}e}  }
+
+\begin{figure}[H]
+\center
+\includegraphics[width=10cm,height=10cm]{./figures/rpb4.png}
+\caption{Dur\'{e}e total par projet (en jours).1}
+
+\end{figure}
+
+\begin{figure}[H]
+\center
+\includegraphics[width=8cm,height=5cm]{./figures/rpb42.png}
+\caption{Dur\'{e}e total par projet (en jours).2}
+
+\end{figure}
+
+
+
+\end{itemize}
+
+
+
+\subsubsection{Reporting sur l'application web}
+
 \begin{figure}[H]
 \center
 \includegraphics[width=11cm,height=7cm]{./figures/pres/cost-per-project.png}
 \caption{ Co\^{u}t par projet }
 \end{figure}
-\FloatBarrier
 
-\FloatBarrier
+
+
 \begin{figure}[H]
 \center
 \includegraphics[width=11cm,height=7cm]{./figures/pres/cost-per-customer.png}
 \caption{ Co\^{u}t par client }
 \end{figure}
-\FloatBarrier
 
-\FloatBarrier
 \begin{figure}[H]
 \center
 \includegraphics[width=11cm,height=7cm]{./figures/pres/cost-per-category.png}
 \caption{ Co\^{u}t par cat\'{e}gorie}
 \end{figure}
-\FloatBarrier
 
-\FloatBarrier
+
+
 \begin{figure}[H]
 \center
 \includegraphics[width=11cm,height=7cm]{./figures/pres/duration-per-project.png}
 \caption{Dur\'{e}e par projet.1. }
 \end{figure}
-\FloatBarrier
 
-\FloatBarrier
+
+
 \begin{figure}[H]
 \center
 \includegraphics[width=11cm,height=7cm]{./figures/pres/durationin-days-per-proj.png}
 \caption{Dur\'{e}e par projet.2.}
 \end{figure}
-\FloatBarrier
+
 
 
 

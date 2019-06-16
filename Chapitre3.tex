@@ -39,13 +39,13 @@ pour mieux expliquer notre application.
 \section{Structure de l'application}
 Le sh\'{e}ma suivant pr\'{e}sente la structure de notre application
 
-\FloatBarrier
+
 \begin{figure}[H]
 \center
-\includegraphics[width=11cm,height=7cm]{./figures/structure.png}
+\includegraphics[width=13cm,height=15cm]{./figures/structure.png}
 \caption{Structure de l'application web.}
 \end{figure}
-\FloatBarrier
+
 
 \section{Conception de la base de donn\'{e}es}
 
@@ -125,13 +125,11 @@ couche ORM afin de pouvoir minimiser les occurrences du SGBD.}
 \caption{Diagramme de classes.}
 
 \end{figure}
-\FloatBarrier
+
 
 \subsubsection{Tableau explicatif}
 
-Afin de clarifier ce sh\'{e}ma en explicant les diff\'{e}rents relations pour les
-entit\'{e}s ,nous avons choisi de les mettre dans un tableau descriptif .
-\FloatBarrier
+
 
 \begin{table}
 
@@ -159,27 +157,7 @@ Nom relation                        & Entité E1                 & Entité E2   
 \centering
 \caption {Relations}
 \end{table}
-\FloatBarrier
 
-Les relations peuvent etre expliqu\'{e}es par les r\'{e}gles suivantes:
-\begin{itemize}
-\item{ Une relation non identifi\'{e}e 1 :N  entre une entit\'{e} E1 et une autre E2:}
-Pour E1 il existe ou il n'existe pas une ou plusieurs entit\'{e}s E2
-\bigskip
-
-\item{Une relation non identifi\'{e}e 1 :1 entre une entit\'{e} E1 et une autre E2:}
-Pour E1 il existe ou il n'existe pas une entit\'{e} E2
-\bigskip
-
-\item{Une relation identifi\'{e}e 1 :N entre une entit\'{e} E1 et une autre E2: }
- Pour E1 il existe une ou plusieurs entit\'{e}s E2
- \bigskip
-
-\item{Une relation identifi\'{e}e 1 :1 entre une entit\'{e} E1 et une autre E2: }
- Pour E1 il existe une entit\'{e} E2
- \bigskip
-
-\end{itemize}
 
 \newpage
 
@@ -188,6 +166,7 @@ Pour E1 il existe ou il n'existe pas une entit\'{e} E2
 \section{Diagramme de d\'{e}ploiement }
 \input{dep.tex}
 
+\newpage
 
 \section{Diagramme d'activit\'{e}}
 Le diagramme d'activit\'{e} nous permet de d\'{e}crire les traitements. Il est
@@ -215,7 +194,7 @@ Ainsi , la figure suivante représente le diagramme d'activit\'{e} pour un membr
 \caption{Diagramme d'activit\'{e} pour un membre.}
 
 \end{figure}
-\FloatBarrier
+
 
 
 
