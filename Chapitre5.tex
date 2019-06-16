@@ -15,26 +15,24 @@ Enfin nous d\'{e}crivons les \'{e}tapes globales suivies lors de la r\'{e}alisat
 Les \'{e}tapes \'{e}taient :
 \bigskip
 
-\begin{itemize}
-\item{ Cr\'{e}er le site web statique (front -end) }
-\\~~
-\item{Cr\'{e}er une application express js }
-\\~~
-\item{  Cr\'{e}ation du base de donn\'{e}es et liaison des donn\'{e}es par le driver node js
-de mysql}
-\\~~
-\item{Cr\'{e}er un rest api \`{a} l'aide de express js }
-\\~~
-\item{Int\'{e}gration de front-end avec le back-end }
-\\~~
-\item{Ajout des modules suppl\'{e}mentaire (Authentification avec jwt et gestion
-des roles utilisateur et administrateur) }
-\\~~
-\item{ H\'{e}bergement en ligne de la base de donn\'{e}es}
-\\~~
-\item{ H\'{e}bergement en ligne de l'application web}
-\\~~
-\end{itemize}
+
+\textbullet{}  Cr\'{e}er le site web statique (front -end)  \newline
+
+\textbullet{} Cr\'{e}er une application express js  \newline
+
+\textbullet{}  Cr\'{e}ation du base de donn\'{e}es et liaison des donn\'{e}es par le driver node js  de mysql \newline
+
+\textbullet{}Cr\'{e}er un rest api \`{a} l'aide de express js  \newline
+
+\textbullet{}Int\'{e}gration de front-end avec le back-end  \newline
+
+\textbullet{}Ajout des modules suppl\'{e}mentaire (Authentification avec jwt et gestion des roles utilisateur et administrateur)  \newline
+
+\textbullet{}  H\'{e}bergement en ligne de la base de donn\'{e}es \newline
+
+\textbullet{} H\'{e}bergement en ligne de l'application web  \newline
+
+
 
 
 \section{Application en ligne}
@@ -70,32 +68,41 @@ Vue Contr\^{o}leur)
 
 
 \section{Environnement de d\'{e}veloppement}
+
   \subsection{Environnement mat\'{e}riel }
-  Pour la r\'{e}alisation du projet, nous avons utilis\'{e} :
- Un ordinateur portable pour le d\'{e}veloppement ayant les caract\'{e}ristiques suivantes :
-\textbullet{} Mod\`{e}le : Asus XJ550.
-\textbullet{} Processeur : i7 2.6GHz.
-\textbullet{} Disque Dur : 1To
-\textbullet{} Syst\`{e}mes d'exploitation : Windows 7.
-\textbullet{} M\'{e}moire : 8Go.
+
+  Pour la r\'{e}alisation du projet, nous avons utilis\'{e}un ordinateur
+  portable pour le d\'{e}veloppement ayant les caract\'{e}ristiques suivantes :
+
+\textbullet{} Mod\`{e}le : Asus XJ550 \newline
+\textbullet{} Processeur : i7 2.6GHz \newline
+\textbullet{} Disque Dur : 1To  \newline
+\textbullet{} Syst\`{e}mes d'exploitation : Windows 7  \newline
+\textbullet{} M\'{e}moire : 8Go  \newline
 
 
   \subsection{Environnement logiciel}
 
-L'environnement logiciel utilis\'{e} pour r\'{e}aliser notre projet est les suivantes :
-\textbullet{} MySQL [12]
 
-MySQL est un système de gestion de bases de données relationnelles. Il est distribué
-sous une double licence GPL et propriétaire. Il fait partie des logiciels de gestion
-de base de données les plus utilisés au monde.
+L'environnement logiciel utilis\'{e} pour r\'{e}aliser notre projet est comme suit : \newline
 
+
+\textbullet{} MySQL
+
+C'est un syst\`{e}me de gestion de bases de données relationnelles. Il est distribu\'{e}
+sous une double licence GPL et propri\'{e}taire. Il fait partie des logiciels de gestion
+de base de donn\'{e}es les plus utilis\'{e}s au monde.
+
+Nous avons uutilis\'{e} wamp (phpmyadmin)[5]  en local et remote mysql pour l'h\'{e}b\'{e}rgement en ligne[6]. \newline
 
 \textbullet{} Visual Studio Code  [1]
+
 est un \'{e}diteur de code extensible d\'{e}velopp\'{e} par Microsoft pour Windows,
 Linux et OS X.
-Nous avons utilis\'{e} visuel code pour \'{e}crire le code de l'application
+Nous avons utilis\'{e} visuel code pour \'{e}crire le code de l'application. \newline
 
 \textbullet{}StarUML [14]
+
 StarUML est un logiciel de mod\'{e}lisation UML, c\'{e}d\'{e} comme open source par son \'{e}diteur, \`{a} la
 fin de son exploitation commerciale, sous une licence modifi\'{e}e de GNU GPL, Nous avons fait
 les diagrammes avec cette technologie.
@@ -105,49 +112,64 @@ les diagrammes avec cette technologie.
 
 
 \section{Outils et technologies }
-\textbf{ Node js}
+
+\textbf{ Node js} [2]
+
 Framework javascript ,nous l'avons utilis\'{e} pour cr\'{e}er le serveur web .
-Il offre la rapidit\'{e} de ,la performance etla modularit\'{e}.
-\bigskip
+Il offre la rapidit\'{e} de ,la performance etla modularit\'{e}.\newline
 
 
-\textbf{ Express js:}
-framework node js qui sert \`{a} cre\'{e}r l'application ,il est en
+
+\textbf{ Express js:} [3]
+
+
+
+ C'est un framework pour construire des
+ applications web bas\'{e}es sur Node js .
+ Il  sert \`{a} cre\'{e}r l'application ,il est en
 relation avec la base de donn\'{e}es par le biais de driver mysql et en relation
-avec les modules web par le moteur de vues EJS.
-\bigskip
-\textbf{ Vue js:}
+avec les modules web par le moteur de vues EJS.\newline
+
+
+
+
+
+\textbf{ Postman:} [16]
+
+Est le seul environnement de d\'{e}veloppement d'API complet utilis\'{e} par plus de 7 millions
+de d\'{e}veloppeurs et 200 000 entreprises dans le monde
+cela rend le d\'{e}veloppement d'API plus rapide,
+ plus facile et plus performant.
+
+
+
+\textbf{ Vue js:} [11]
 
 Framework javascript front-end utilis\'{e} pour la programmation et la
-manipulation des actions,entr\'{e}es et sorties des diff\'{e}rents modules .
-\bigskip
+manipulation des actions,entr\'{e}es et sorties des diff\'{e}rents modules . \newline
 
-\textbf{ Mysql:}
+
+\textbf{ Mysql:} [12]
+
 Langage de la base de donn\'{e}es relationnelle utilis\'{e}e.
 e.EJS moteur de vue d'express js , ce type permet l'intercommunication entre
-les modules web et le serveur .
-\bigskip
+les modules web et le serveur . \newline
 
-\textbf{ EJS:}
+
+\textbf{ EJS:} 10]
+
 moteur de vue d'express js , ce type permet l'intercommunication entre
-les modules web et le serveur .
-\bigskip
-
-
-\textbf{ Highcharts: }
-L'outil de \guillemotleft{} reporting \guillemotright{} sur des pages web
-\bigskip
+les modules web et le serveur . \newline
 
 
 
-\textbf{ Express JS:}
+\textbf{ Highcharts: }  [15]
 
-Express js la base de l'application web ,il nous permet de cr\'{e}er l'API REST
-qui nous permet de distribuer les elements de l'applications sur des \guillemotleft{} routes \guillemotright{}
-ou nous pouvons les acc\'{e}der \`{a} l'aide des middlewares express .
-L'authentification est donc faite par un contr\^{o}le sur certains \guillemotleft{} routes \guillemotright{}.
-Les middlewarent permettent de communiquer les param\'{e}tres d'entr\'{e}e sortie
-entre les pages web d'une part et autres la base de donn\'{e}es d'autre part.
+L'outil de \guillemotleft{} reporting \guillemotright{} sur les pages web.
+
+
+
+
 
 
 

@@ -210,7 +210,7 @@ afin de satisfaire le besoin de la consultation du suivi des projets selon le te
 Ains les donn\'{e}es correspondantes sont collect\'{e}es, modifi\'{e}es et charg\'{e}es dans un entrep\^{o}t de donn\'{e}es
 assurant ainsi la phase ETL.
 
-Nous avons utilis\'{e} l'outil talend pour charger les donn\'{e}es necessaires .
+Nous avons utilis\'{e} l'outil talend pour charger les donn\'{e}es n\'{e}cessaires .
 Puisque nous avons les donn\'{e}es ordonn\'{e}es et int\'{e}gres ,nous n'avons pas \'{e}t\'{e} besoin d'une ODS (Operational data source)
 nous passont directement \`{a} construite notre table de faits
 
@@ -219,13 +219,15 @@ nous passont directement \`{a} construite notre table de faits
 \subsection{Int\'{e}gration}
 
 
-Pour obtenir les co\^{u}ts nous avons calcul\'{e} le prix par chaque projet ,categorie ,et nom du client
+Pour obtenir les co\^{u}ts nous avons calcul\'{e} le prix par chaque projet 
+,cat\'{e}gorie ,et nom du client.
 
 \begin{figure}[H]
 \center
 \includegraphics[width=14cm,height=9cm]{./figures/integ.png}
 \caption{Extraction des co\^{u}ts.1.}
 \end{figure}
+
 
 
 \begin{figure}[H]
@@ -256,12 +258,14 @@ nous avons calcul\'{e} pour chaque projet la diff\'{e}rence en jours .
 
 \subsection{Sh\'{e}mas obtenus}
 A partir du du sh\'{e}ma de la fig \`{a} on a obtenue la table fact selon ce shéma
+\FloatBarrier
 
 \begin{figure}[H]
 \center
 \includegraphics[width=14cm,height=9cm]{./figures/s1.png}
 \caption{Sh\'{e}ma initial.}
 \end{figure}
+\FloatBarrier
 
 
 \FloatBarrier
@@ -284,9 +288,9 @@ category     & varchar(60)  & YES  &     & NULL    &       &   \\
 \hline
 \end{tabular}
 \end{table}
-
-
 \FloatBarrier
+
+
 les donn\'{e}es obtenues sont comme suit :
 \begin{table}
 \centering
@@ -304,8 +308,9 @@ price & projectname                   & duration & customername            & cat
 \hline
 \end{tabular}
 \end{table}
-
 \FloatBarrier
+
+
 
 
 \subsubsection{Test}
