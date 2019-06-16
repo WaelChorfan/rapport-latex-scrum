@@ -1,0 +1,67 @@
+\BOOKMARK [-1][-]{part.1}{I Aspects Th\351oriques }{}% 1
+\BOOKMARK [0][-]{chapter.1}{Cadre g\351ng\351rale du projet}{part.1}% 2
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Contexte du travail}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{Pr\351sentation de l'organisme d'accueil}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{ Contexte du projet }{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.5}{Business intelligence}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.6}{ Etude de l'existant }{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.6.1}{Asana}{section.1.6}% 9
+\BOOKMARK [2][-]{subsection.1.6.2}{Jira}{section.1.6}% 10
+\BOOKMARK [1][-]{section.1.7}{ Probl\351matique }{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.8}{ Solution propos\351e }{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.9}{ Etude m\351thodologique }{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.9.1}{Choix de la m\351thodologie}{section.1.9}% 14
+\BOOKMARK [2][-]{subsection.1.9.2}{Pr\351sentation de la m\351thodologie SCRUM}{section.1.9}% 15
+\BOOKMARK [2][-]{subsection.1.9.3}{Planning du projet}{section.1.9}% 16
+\BOOKMARK [2][-]{subsection.1.9.4}{Diagramme de Gantt}{section.1.9}% 17
+\BOOKMARK [0][-]{chapter.2}{ Analyse et Sp\351cifications besoins }{part.1}% 18
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.2}{ Les acteurs du syst\350me }{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.3}{ Sp\351cifications besoins}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.3.1}{Besoins fonctionnels}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.2}{Besoins non fonctionnels}{section.2.3}% 23
+\BOOKMARK [1][-]{section.2.4}{ Diagramme de cas d'utilisation g\351n\351rale }{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.5}{ Diagramme de s\351quences }{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.6}{Backlog de planning}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.6.1}{Les fonctionnalit\351s du Backlog}{section.2.6}% 27
+\BOOKMARK [2][-]{subsection.2.6.2}{ Planification des sprints}{section.2.6}% 28
+\BOOKMARK [-1][-]{part.2}{II Aspects Pratiques}{}% 29
+\BOOKMARK [0][-]{chapter.3}{Release 1}{part.2}% 30
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.2}{ Sprint 1 }{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.2.1}{Analyse}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.2}{Conception}{section.3.2}% 34
+\BOOKMARK [2][-]{subsection.3.2.3}{Sch\351ma}{section.3.2}% 35
+\BOOKMARK [2][-]{subsection.3.2.4}{Test}{section.3.2}% 36
+\BOOKMARK [1][-]{section.3.3}{ Sprint 2 }{chapter.3}% 37
+\BOOKMARK [2][-]{subsection.3.3.1}{Consultation carte g\351ographique des clients}{section.3.3}% 38
+\BOOKMARK [1][-]{section.3.4}{ Sprint 3 }{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.5}{ Sprint 4 }{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.6}{Structure de l'application}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.7}{Conception de la base de donn\351es}{chapter.3}% 42
+\BOOKMARK [2][-]{subsection.3.7.1}{Mod\350le du liason des donn\351es }{section.3.7}% 43
+\BOOKMARK [2][-]{subsection.3.7.2}{Diagramme de classes}{section.3.7}% 44
+\BOOKMARK [1][-]{section.3.8}{Diagramme de d\351ploiement }{chapter.3}% 45
+\BOOKMARK [2][-]{subsection.3.8.1}{Diagramme de d\351ploiement}{section.3.8}% 46
+\BOOKMARK [1][-]{section.3.9}{Diagramme d'activit\351}{chapter.3}% 47
+\BOOKMARK [0][-]{chapter.4}{Release 2}{part.2}% 48
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 49
+\BOOKMARK [1][-]{section.4.2}{ Analyse et conception}{chapter.4}% 50
+\BOOKMARK [2][-]{subsection.4.2.1}{Analyse}{section.4.2}% 51
+\BOOKMARK [2][-]{subsection.4.2.2}{Conception}{section.4.2}% 52
+\BOOKMARK [1][-]{section.4.3}{ But de l'\351tude d\351cisionnelle }{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.4}{ Elaboration des rapports sur Power BI }{chapter.4}% 54
+\BOOKMARK [1][-]{section.4.5}{ Partie ETL }{chapter.4}% 55
+\BOOKMARK [2][-]{subsection.4.5.1}{Int\351gration}{section.4.5}% 56
+\BOOKMARK [2][-]{subsection.4.5.2}{Sh\351mas obtenus}{section.4.5}% 57
+\BOOKMARK [2][-]{subsection.4.5.3}{La consultation des rapports}{section.4.5}% 58
+\BOOKMARK [0][-]{chapter.5}{ Cl\364ture du projet }{part.2}% 59
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 60
+\BOOKMARK [1][-]{section.5.2}{Impl\351mentation et structure}{chapter.5}% 61
+\BOOKMARK [1][-]{section.5.3}{Application en ligne}{chapter.5}% 62
+\BOOKMARK [1][-]{section.5.4}{ Architecture 3 tiers}{chapter.5}% 63
+\BOOKMARK [1][-]{section.5.5}{Environnement de d\351veloppement}{chapter.5}% 64
+\BOOKMARK [2][-]{subsection.5.5.1}{Environnement mat\351riel }{section.5.5}% 65
+\BOOKMARK [2][-]{subsection.5.5.2}{Environnement logiciel}{section.5.5}% 66
+\BOOKMARK [1][-]{section.5.6}{Outils et technologies }{chapter.5}% 67
