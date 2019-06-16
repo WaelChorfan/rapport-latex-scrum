@@ -36,34 +36,35 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces G\'{e}rer un projet.}}{48}{figure.4.1}% 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Consultation des rapports.}}{49}{figure.4.2}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Mod\`{e}le en \'{e}toile .}}{51}{figure.4.3}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Extraction des co\^{u}ts.1.}}{52}{figure.4.4}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Extraction des co\^{u}ts.2.}}{53}{figure.4.5}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Extraction des co\^{u}ts.3.}}{54}{figure.4.6}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Extraction des dur\'{e}es.}}{55}{figure.4.7}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Sh\'{e}ma initial.}}{56}{figure.4.8}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Ajustement des noms.}}{58}{figure.4.9}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Ajustement de la dur\'{e}e totale des projets.}}{59}{figure.4.10}% 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Co\^{u}t total par projet.}}{60}{figure.4.11}% 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Co\^{u}t total par cat\IeC {\'e}gorie de projet.}}{61}{figure.4.12}% 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Co\^{u}t total par client.}}{62}{figure.4.13}% 
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Co\^{u}t total par client en chiffres.}}{62}{figure.4.14}% 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Dur\'{e}e total par projet (en jours).1}}{63}{figure.4.15}% 
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Dur\'{e}e total par projet (en jours).2}}{63}{figure.4.16}% 
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Co\^{u}t par projet }}{64}{figure.4.17}% 
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Co\^{u}t par client }}{64}{figure.4.18}% 
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Co\^{u}t par cat\'{e}gorie}}{65}{figure.4.19}% 
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Dur\'{e}e par projet.1. }}{65}{figure.4.20}% 
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Dur\'{e}e par projet.2.}}{66}{figure.4.21}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Key Performance Indicator.}}{50}{figure.4.3}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Processus ETL.}}{51}{figure.4.4}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Mod\`{e}le en \'{e}toile .}}{52}{figure.4.5}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Extraction des co\^{u}ts.1.}}{53}{figure.4.6}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Extraction des co\^{u}ts.2.}}{54}{figure.4.7}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Extraction des dur\'{e}es.}}{54}{figure.4.8}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Sh\'{e}ma initial.}}{55}{figure.4.9}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Ajustement des noms.}}{56}{figure.4.10}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Ajustement de la dur\'{e}e totale des projets.}}{57}{figure.4.11}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Co\^{u}t total par projet.}}{58}{figure.4.12}% 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Co\^{u}t total par cat\IeC {\'e}gorie de projet.}}{58}{figure.4.13}% 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Co\^{u}t total par client.}}{59}{figure.4.14}% 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Co\^{u}t total par client en chiffres.}}{59}{figure.4.15}% 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Dur\'{e}e total par projet (en jours).1}}{60}{figure.4.16}% 
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Dur\'{e}e total par projet (en jours).2}}{60}{figure.4.17}% 
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Co\^{u}t par projet }}{61}{figure.4.18}% 
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Co\^{u}t par client }}{61}{figure.4.19}% 
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Co\^{u}t par cat\'{e}gorie}}{62}{figure.4.20}% 
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Dur\'{e}e par projet.1. }}{62}{figure.4.21}% 
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Dur\'{e}e par projet.2.}}{63}{figure.4.22}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces phpmyadmin.}}{70}{figure.5.1}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Wamp.}}{70}{figure.5.2}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Visual Studio Code.}}{70}{figure.5.3}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Staruml.}}{71}{figure.5.4}% 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Node js.}}{71}{figure.5.5}% 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Express js.}}{72}{figure.5.6}% 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Postman.}}{72}{figure.5.7}% 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Vue js.}}{73}{figure.5.8}% 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces MySQL.}}{73}{figure.5.9}% 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces EJS.}}{74}{figure.5.10}% 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Highcharts.}}{74}{figure.5.11}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces phpmyadmin.}}{67}{figure.5.1}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Wamp.}}{67}{figure.5.2}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Visual Studio Code.}}{67}{figure.5.3}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Staruml.}}{68}{figure.5.4}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Node js.}}{68}{figure.5.5}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Express js.}}{69}{figure.5.6}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Postman.}}{69}{figure.5.7}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Vue js.}}{70}{figure.5.8}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces MySQL.}}{70}{figure.5.9}% 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces EJS.}}{71}{figure.5.10}% 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Highcharts.}}{71}{figure.5.11}% 

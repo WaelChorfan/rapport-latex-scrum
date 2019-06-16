@@ -36,7 +36,7 @@ des interactions entre Administrateur, Application et Base de donn\'{e}es (BD).
 \end{figure}
 
 
-\section{ Objectifs de l'tude d\'{e}cisionnelle }
+\section{ Objectifs de l'\'{e}tude d\'{e}cisionnelle }
 
 
 \subsection{Axes d'\'{e}tude}
@@ -52,11 +52,18 @@ Notre \'{e}tude d\'{e}cisionnelle portera sur :
 
 Pour mettre en evidence cette \'{e}tude  , on recourt \`{a} extraire les rapports bas\'{e}es sur
 les Mesures Calcul\'{e}es (Key Performance Indicator),ceux sont des mesures qui permettent aux entreprises d'\'{e}valuer la performance d'un
-domaine.
+domaine.( Figure 4.3 ) \newline
 Ces mesures int\`{e}grent des tableaux de bord, des outils pour faciliter le suivi et l'aide
 \`{a} la d\'{e}cision. Ainsi chaque personne acc\`{e}de aux donn\'{e}es essentielles de gestion pour
-piloter son activit\'{e}
+piloter son activit\'{e}.
 
+
+
+\begin{figure}[H]
+\center
+\includegraphics[width=11cm,height=12cm]{./figures/kpi.png}
+\caption{Key Performance Indicator.}
+\end{figure}
 
 
 \subsection{ Partie ETL }
@@ -64,7 +71,7 @@ piloter son activit\'{e}
 \subsubsection{Description du Processus ETL }
 
 L'ETL (Extract, Transform, Load) est un processus d'int\'{e}gration des donn\'{e}es qui permet de transf\'{e}rer des donn\'{e}es brutes d'un syst\`{e}me source, de les pr\'{e}parer pour une utilisation en aval et de les envoyer vers une base de donn\'{e}es, un entrep\^{o}t de donn\'{e}es ou un serveur cible. Dans ce processus la transformation des donn\'{e}es intervient sur un serveur interm\'{e}diaire avant le chargement sur la cible comme indiqué
-\`{a} la (Figure )
+\`{a} la (Figure 4.3 )
 \begin{figure}[H]
 \center
 \includegraphics[width=14cm,height=9cm]{./figures/bi1.png}
@@ -98,7 +105,7 @@ li\'{e}s entre eux par des dimensions communes. }
 
 \subsubsection{Chargement de l'entrepôt  de donn\'{e}es}
 
-Dans notre entrep\^{o}t de donn\'{e}es, nous avons utilis\'{e} le mod\`{e}le en \'{e}toile (Figure 4.3 )
+Dans notre entrep\^{o}t de donn\'{e}es, nous avons utilis\'{e} le mod\`{e}le en \'{e}toile (Figure 4.5 )
 
 Pour avoir des rapports sur l'application web ,on doit avoir les donn\'{e}es sous une certaine format ,
 afin de satisfaire le besoin de la consultation du suivi des projets selon le temps et le co\^{u}t.
@@ -122,11 +129,14 @@ nous passont directement \`{a} construite notre table de faits.
 
 
 Pour obtenir les co\^{u}ts nous avons calcul\'{e} le prix par chaque projet
-,cat\'{e}gorie ,et nom du client.
+,cat\'{e}gorie ,et nom du client.(Figure  4.7)
+
+Pour obtenir la dur\'{e}e du chaque projet en jours ,
+nous avons calcul\'{e} pour chaque projet la diff\'{e}rence en jours .(Figure 4.8 )
 
 \begin{figure}[H]
 \center
-\includegraphics[width=14cm,height=9cm]{./figures/integ.png}
+\includegraphics[width=14cm,height=10cm]{./figures/integ.png}
 \caption{Extraction des co\^{u}ts.1.}
 \end{figure}
 
@@ -134,31 +144,25 @@ Pour obtenir les co\^{u}ts nous avons calcul\'{e} le prix par chaque projet
 
 \begin{figure}[H]
 \center
-\includegraphics[width=14cm,height=9cm]{./figures/integ1.png}
+\includegraphics[width=12cm,height=7cm]{./figures/integ1.png}
 \caption{Extraction des co\^{u}ts.2.}
 \end{figure}
 
 
-\begin{figure}[H]
-\center
-\includegraphics[width=14cm,height=9cm]{./figures/integ3.png}
-\caption{Extraction des co\^{u}ts.3.}
-\end{figure}
 
 
 
-Pour obtenir la dur\'{e}e du chaque projet en jours ,
-nous avons calcul\'{e} pour chaque projet la diff\'{e}rence en jours .
+
 
 \begin{figure}[H]
 \center
-\includegraphics[width=14cm,height=9cm]{./figures/integ2.png}
+\includegraphics[width=12cm,height=7cm]{./figures/integ2.png}
 \caption{Extraction des  dur\'{e}es.}
 \end{figure}
 
 
 
-
+\newpage
 
 \subsubsection{Sh\'{e}mas obtenus}
 A partir du du sh\'{e}ma de la fig \`{a} on a obtenue la table fact selon ce shéma
@@ -269,29 +273,29 @@ Pour ce fait on a cr\'{e}e les rapports correspontdants \`{a} l'\'{e}tude d\'{e}
 Les deux axes importants de l'\'{e}tude sont les couts et la dur\'{e}e :
 
 
+\newpage
 \paragraph{R\'{e}sultats  }
 \begin{itemize}
 
 \item{ \textbf{Les  co\^{u}ts}  }
 
-
 \begin{figure}[H]
 \center
-\includegraphics[width=10cm,height=10cm]{./figures/rpb1.png}
+\includegraphics[width=8cm,height=5cm]{./figures/rpb1.png}
 \caption{Co\^{u}t total par projet.}
 
 \end{figure}
 
 \begin{figure}[H]
 \center
-\includegraphics[width=10cm,height=10cm]{./figures/rpb2.png}
+\includegraphics[width=8cm,height=5cm]{./figures/rpb2.png}
 \caption{Co\^{u}t total par catégorie de projet.}
 
 \end{figure}
 
 \begin{figure}[H]
 \center
-\includegraphics[width=10cm,height=10cm]{./figures/rpb3.png}
+\includegraphics[width=8cm,height=5cm]{./figures/rpb3.png}
 \caption{Co\^{u}t total par client.}
 
 \end{figure}
@@ -312,7 +316,7 @@ Les deux axes importants de l'\'{e}tude sont les couts et la dur\'{e}e :
 
 \begin{figure}[H]
 \center
-\includegraphics[width=10cm,height=10cm]{./figures/rpb4.png}
+\includegraphics[width=8cm,height=5cm]{./figures/rpb4.png}
 \caption{Dur\'{e}e total par projet (en jours).1}
 
 \end{figure}

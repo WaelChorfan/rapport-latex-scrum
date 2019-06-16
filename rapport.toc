@@ -1,4 +1,8 @@
 \babel@toc {french}{}
+\contentsline {chapter}{Table des mati\`{e}res}{5}{chapter*.1}% 
+\contentsline {chapter}{Table des figures}{8}{chapter*.2}% 
+\contentsline {chapter}{Liste des tableaux}{9}{chapter*.3}% 
+\contentsline {chapter}{Introduction g\'{e}n\'{e}rale}{1}{chapter*.4}% 
 \contentsline {chapter}{\numberline {1}Cadre g\'{e}ng\'{e}rale du projet}{3}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Contexte du travail}{3}{section.1.2}% 
@@ -76,27 +80,30 @@
 \contentsline {subsubsection}{ Diagramme de cas d'utilisation "Consultation des rapports"}{48}{section*.20}% 
 \contentsline {subsection}{\numberline {4.2.2}Conception}{48}{subsection.4.2.2}% 
 \contentsline {subsubsection}{Le sc\'{e}nario \guillemotleft {} Consultation des rapports\guillemotright {}}{48}{section*.21}% 
-\contentsline {section}{\numberline {4.3} But de l'\'{e}tude d\'{e}cisionnelle }{49}{section.4.3}% 
-\contentsline {subsubsection}{Axes d'\'{e}tude}{49}{section*.22}% 
-\contentsline {subsubsection}{}{50}{section*.23}% 
-\contentsline {section}{\numberline {4.4} Partie ETL }{50}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}D\'{e}finition de data warehouse}{50}{subsection.4.4.1}% 
-\contentsline {subsection}{\numberline {4.4.2}Diff\'{e}rents mod\`{e}les de la mod\'{e}lisation dimensionnelle}{50}{subsection.4.4.2}% 
-\contentsline {subsection}{\numberline {4.4.3}Chargement de l'entrep\IeC {\^o}t de donn\'{e}es}{50}{subsection.4.4.3}% 
-\contentsline {subsection}{\numberline {4.4.4}Int\'{e}gration}{51}{subsection.4.4.4}% 
-\contentsline {subsection}{\numberline {4.4.5}Sh\'{e}mas obtenus}{55}{subsection.4.4.5}% 
-\contentsline {subsection}{\numberline {4.4.6}Test}{58}{subsection.4.4.6}% 
-\contentsline {subsection}{\numberline {4.4.7} La consultation des rapports et l'analyse des donn\'{e}es }{58}{subsection.4.4.7}% 
-\contentsline {subsubsection}{Reporting avec l'outil Power BI }{58}{section*.24}% 
-\contentsline {paragraph}{Pr\'{e}paration}{58}{section*.25}% 
-\contentsline {paragraph}{R\'{e}sultats }{59}{section*.26}% 
-\contentsline {subsubsection}{Reporting sur l'application web}{64}{section*.27}% 
-\contentsline {chapter}{\numberline {5} Cl\^{o}ture du projet }{67}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Introduction}{67}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Impl\'{e}mentation et structure}{67}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Application en ligne}{68}{section.5.3}% 
-\contentsline {section}{\numberline {5.4} Architecture 3 tiers}{69}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Environnement de d\'{e}veloppement}{69}{section.5.5}% 
-\contentsline {subsection}{\numberline {5.5.1}Environnement mat\'{e}riel }{69}{subsection.5.5.1}% 
-\contentsline {subsection}{\numberline {5.5.2}Environnement logiciel}{69}{subsection.5.5.2}% 
-\contentsline {section}{\numberline {5.6}Outils et technologies }{71}{section.5.6}% 
+\contentsline {section}{\numberline {4.3} Objectifs de l'\'{e}tude d\'{e}cisionnelle }{49}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Axes d'\'{e}tude}{49}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2} Partie ETL }{50}{subsection.4.3.2}% 
+\contentsline {subsubsection}{Description du Processus ETL }{50}{section*.22}% 
+\contentsline {subsubsection}{D\'{e}finition de data warehouse}{51}{section*.23}% 
+\contentsline {subsubsection}{Diff\'{e}rents mod\`{e}les de la mod\'{e}lisation dimensionnelle}{51}{section*.24}% 
+\contentsline {subsubsection}{Chargement de l'entrep\IeC {\^o}t de donn\'{e}es}{52}{section*.25}% 
+\contentsline {subsubsection}{Int\'{e}gration}{53}{section*.26}% 
+\contentsline {subsubsection}{Sh\'{e}mas obtenus}{55}{section*.27}% 
+\contentsline {subsection}{\numberline {4.3.3}Test}{56}{subsection.4.3.3}% 
+\contentsline {subsection}{\numberline {4.3.4} La consultation des rapports et l'analyse des donn\'{e}es }{56}{subsection.4.3.4}% 
+\contentsline {subsubsection}{Reporting avec l'outil Power BI }{56}{section*.28}% 
+\contentsline {paragraph}{Pr\'{e}paration}{56}{section*.29}% 
+\contentsline {paragraph}{R\'{e}sultats }{58}{section*.30}% 
+\contentsline {subsubsection}{Reporting sur l'application web}{61}{section*.31}% 
+\contentsline {chapter}{\numberline {5} Cl\^{o}ture du projet }{64}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Introduction}{64}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Impl\'{e}mentation et structure}{64}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Application en ligne}{65}{section.5.3}% 
+\contentsline {section}{\numberline {5.4} Architecture 3 tiers}{66}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Environnement de d\'{e}veloppement}{66}{section.5.5}% 
+\contentsline {subsection}{\numberline {5.5.1}Environnement mat\'{e}riel }{66}{subsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.5.2}Environnement logiciel}{66}{subsection.5.5.2}% 
+\contentsline {section}{\numberline {5.6}Outils et technologies }{68}{section.5.6}% 
+\contentsline {chapter}{Conclusion et Perspectives}{72}{chapter*.32}% 
+\contentsline {chapter}{Abbr\'{e}viations }{74}{chapter*.33}% 
+\contentsline {chapter}{Webographie }{75}{chapter*.34}% 
