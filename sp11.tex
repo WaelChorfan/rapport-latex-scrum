@@ -19,20 +19,26 @@ afin d'expliquer le d\'{e}roulement des diff\'{e}rents sc\'{e}nario entre les di
 \subsubsection{Le sc\'{e}nario \guillemotleft{} Cr\'{e}ation d'un membre \guillemotright{}}
 
 Le diagramme de s\'{e}quence \guillemotleft{} Ajout d'une t\^{a}che \guillemotright{} pr\'{e}sente le s\'{e}quencement
-des interactions entre Administrateur, Application et Base de donn\'{e}es (BD).
+des interactions entre Administrateur, Application et Base de donn\'{e}es (BD). (Figure )
+
+
+\begin{figure}[H]
+\center
+\includegraphics[width=14cm,height=9cm]{./figures/seq/E.png}
+\caption{Cr\'{e}ation d'un membre.}
+\end{figure}
 
 \newpage
 
-\subsection{Sch\'{e}ma}
+Le sh\'{e}ma de la table est p\'{e}sent\'{e} par la Table 3.1 .
 
-\textbf{La table \guillemotleft{} members \guillemotright{}}
-(Table 3.1)
 
 \begin{table}
 
 \begin{tabular}{|l|l|l|l|l|l|}
 \hline
-Field        & Type         & Null & Key & Default            & Extra            \\
+\textbf{Field}            &   \textbf{Type}              &  \textbf{Null}   &  \textbf{Key}   &   \textbf{Default}             &  \textbf{Extra}
+          \\
 \hline
 id           & int(11)      & NO   & PRI & NULL               & auto\_increment  \\
 \hline

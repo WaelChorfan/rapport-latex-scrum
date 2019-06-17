@@ -34,11 +34,14 @@
 \includepdf{PageDeGarde.pdf}
 \includepdf{./pdf/signature.pdf}
 
+
+
 \setcounter{page}{1} \pagenumbering{roman}
 
-\pagenumbering{arabic}
-
+\input{dra.tex}
 \input{introduction.tex}
+\setcounter{page}{1} \pagenumbering{arabic}
+
 
 \tableofcontents
 \addcontentsline{toc}{chapter}{Table des mati\`{e}res}
@@ -47,9 +50,6 @@
 \listoftables
 \addcontentsline{toc}{chapter}{Liste des tableaux}
 
-\includepdf{1.pdf}
-\includepdf{2.pdf}
-\includepdf{3.pdf}
 
 
 
@@ -62,9 +62,12 @@
  \input{Chapitre4.tex}
 
  \input{conclusion.tex}
+  \input{anx.tex}
  \input{ra.tex}
 
  \pagestyle{plain}
+ \appendix
+ \input{anx.tex}
 
  \end{document}
 

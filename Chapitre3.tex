@@ -47,77 +47,14 @@ La Figure 3.22 pr\'{e}sente la structure de notre application.
 \end{figure}
 
 
-\section{Conception de la base de donn\'{e}es}
-
-\subsection{Mod\`{e}le du liason des donn\'{e}es }
-L'architecture de notre application nous implique \`{a} cr\'{e}er un mod\`{e}le physique
-des donn\'{e}es , et nous avons pas \'{e}t\'{e} besoin d'un model conceptuel logique
-,puisque on a li\'{e}e directement les donn\'{e}es \`{a} l'application par le biais d'un
-pilote de connexion et pas par un ORM , et ceci est le diagramme
-Entit\'{e}s \textendash{}Relations de la base de donn\'{e}es qui est en interaction avec
-l'application web .
-Choix de la m\'{e}thodologie de conception :
-La liaison par des ORM ,ou poss\'{e}de des avantages bienque des inconv\'{e}nient ,
-parmi ses avantages :
-
-\bigskip
-\begin{itemize}
-\item{\textbf{La portabilit\'{e} :}  ORM est utilis\'{e} pour que vous \'{e}criviez votre structure une
-seule fois et la couche ORM g\'{e}rera l'instruction finale adapt\'{e}e au SGBD
-configur\'{e}. C'est un excellent avantage, car une op\'{e}ration simple, telle que
-limit, est ajout\'{e}e sous la forme "limit 0,100" \`{a} la fin de l'instruction select
-dans MySQL, alors qu'elle est "select top 100 from table" dans MS SQL.}
-
-\bigskip
-\item{\textbf{Imbrication de donn\'{e}es:} en cas de relations, la couche ORM extraira
-automatiquement les donn\'{e}es pour vous.}
-
-\bigskip
-\item{\textbf{Langage unique:} vous ne connaissez pas le langage SQL pour traiter la base
-de donn\'{e}es uniquement avec votre langage de d\'{e}veloppement.
-Ajouter revient \`{a} modifier: la plupart des couches ORM traitent l'ajout de
-nouvelles donn\'{e}es (insertion SQL) et la mise \`{a} jour des donn\'{e}es (SQL
-Update) de la m\^{e}me mani\`{e}re, ce qui facilite grandement l'\'{e}criture et la
-maintenance du code.}
-
-\item{\textbf{Imbrication de donn\'{e}es:} en cas de relations, la couche ORM extraira
-automatiquement les donn\'{e}es pour vous.}
-
-\end{itemize}
-
-\bigskip
-
-Et parmi les inconv\'{e}nients de l'ORM on trouve :
 
 
 
-\bigskip
-
-\begin{itemize}
-\item{\textbf{ La complexit\'{e} des requ\^{e}tes : }certaines couches ORM ont des limitations, en
-particulier lors de l'ex\'{e}cution de requ\^{e}tes. Vous serez donc parfois oblig\'{e}
-d'\'{e}crire en SQL brut.}
-
-\item{\textbf{Lenteur:}
- si vous comparez les performances entre l'\'{e}criture de SQL brut ou
-l'utilisation d'ORM, vous trouverez le brut beaucoup plus rapidement car il
-n'y a pas de couche de traduction.}
-
-\item{\textbf{R\'{e}glage:} si vous connaissez bien le langage SQL et votre SGBD par d\'{e}faut,
-vous pouvez utiliser vos connaissances pour acc\'{e}l\'{e}rer les requ\^{e}tes, mais ce
-n'est pas la m\^{e}me chose avec ORM.}
-
-\item{\textbf{Configuration:}
- si vous travaillez dans un projet Big Data et que vous n'\^{e}tes
-pas satisfait de la performance, vous vous retrouverez en train d'\'{e}tudier la
-couche ORM afin de pouvoir minimiser les occurrences du SGBD.}
 
 
 
-\end{itemize}
-
-
-\subsection{Diagramme de classes}
+-------------
+\section{Diagramme de classes}
 
 \begin{figure}[H]
 \center
@@ -127,7 +64,7 @@ couche ORM afin de pouvoir minimiser les occurrences du SGBD.}
 \end{figure}
 
 
-\subsubsection{Tableau explicatif}
+\subsection{Tableau explicatif}
 
 La Table 3.4 met en évidence les différentes Relations entre les entités .
 
