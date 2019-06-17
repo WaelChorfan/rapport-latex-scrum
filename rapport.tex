@@ -34,6 +34,12 @@
 \includepdf{PageDeGarde.pdf}
 \includepdf{./pdf/signature.pdf}
 
+\setcounter{page}{1} \pagenumbering{roman}
+
+\pagenumbering{arabic}
+
+\input{introduction.tex}
+
 \tableofcontents
 \addcontentsline{toc}{chapter}{Table des mati\`{e}res}
 \listoffigures
@@ -45,18 +51,16 @@
 \includepdf{2.pdf}
 \includepdf{3.pdf}
 
-\setcounter{page}{1} \pagenumbering{roman}
 
-\pagenumbering{arabic}
 
-\input{introduction.tex}
+
 
  \input{Chapitre1.tex}
  \input{Chapitre2.tex}
 
  \input{Chapitre3.tex}
  \input{Chapitre4.tex}
- \input{Chapitre5.tex}
+
  \input{conclusion.tex}
  \input{ra.tex}
 
